@@ -1,0 +1,9 @@
+metric,value
+nWallets,25
+timePointsSec,"0,5,30,120"
+condA_finalized_stableAcrossTime,25
+condB_latest_stableAcrossTime,25
+condA_finalized_matchAcrossProvider,84
+condB_latest_matchAcrossProvider,84
+totalProviderChecksPerCondition,100
+measuredAtKst,"2026. 10. 10. 오후 2:31:23"

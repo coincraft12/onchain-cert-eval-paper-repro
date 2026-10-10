@@ -7,11 +7,12 @@ This repository is a **reproduction package**, not the full production system. I
 
 - The evaluation pipeline core used by the paper's experiments — `110 DomainAdapter → 120 Collection/normalize → 130 SessionConstructor → 140 FeatureExtractor → 150 Scorer → 160 session-root aggregation` (no issuance, burn, KMS signing, or validator-network code — those are operational concerns of the production system and out of scope here).
 - The exact ruleSets used (`GENERIC-R1`, `SC-DEV-PRO-M1`).
-- The three experiment scripts referenced in the paper:
-  - **Exp.1** — independent-RPC-provider reproducibility (same input → same `sessionRoot`/score across independently operated nodes)
-  - **Exp.3** — processing-time/latency measurement
+- The experiment scripts referenced in the paper:
+  - **Exp.1** — independent-RPC-provider reproducibility (same input → same `sessionRoot`/score across independently operated nodes), its chain-tip variant, and the input-completeness check (the determinism condition behind the paper's "0 silent mismatches, 4 UNVERIFIABLE" result)
+  - **Exp.2** — on-chain gas cost (data only: the real tx-hash list + gas numbers; every hash is independently checkable on Polygonscan, no script needed to trust the numbers)
+  - **Exp.3** — processing-time/latency measurement (single-session and multi-session variants)
   - **Exp.4** — inflation-resistance testing on a local Polygon mainnet fork (zero cost, full control)
-- The frozen transaction-hash datasets Exp.1/Exp.3 were run against (all real, already-public Polygon mainnet transactions — nothing synthetic).
+- The frozen transaction-hash datasets Exp.1/Exp.2/Exp.3 were run against (all real, already-public Polygon mainnet transactions — nothing synthetic).
 - The result CSVs reported in the paper.
 - The deployed, verified contract source (`CompetencyAttestationSBTV4.sol`) for reference — provided as-is to match the verified on-chain bytecode; this repo does not include a build setup for it (its OpenZeppelin/local-interface imports are not bundled).
 
@@ -21,8 +22,8 @@ This is a curated subset of a larger private system. Deliberately excluded:
 
 - Issuance (`issue`), burn, KMS-signing, and validator-network SDK modules — operational code for the live production deployment.
 - `.env` files, API keys, RPC URLs, AWS/KMS key IDs, custody-related code.
-- Any issuance record naming a real person (examinee data).
-- Operational documents (multisig SOPs, deployment runbooks) and any address other than the public contract/Safe signer addresses already visible on-chain.
+- Any issuance record naming a real person (examinee data) — including function-label strings that embedded a real name in the source project's internal gas-measurement script; the Exp.2 data here was regenerated with an anonymized label (`issueOrUpdate_mainnet_production_1`) referring to the same, already-public transaction hash.
+- Operational documents (multisig SOPs, deployment runbooks, internal STATUS/progress notes) and any address other than the public contract/Safe signer addresses already visible on-chain.
 - Test-wallet private keys (none of the experiments ever need one — Exp.4 uses Anvil's `anvil_impersonateAccount` cheat code on a local fork, not a real signed transaction).
 
 ## Repository layout
@@ -33,10 +34,11 @@ rulesets/                   GENERIC-R1.json, SC-DEV-PRO-M1-ruleset.json, + the s
 contracts/                  CompetencyAttestationSBTV4.sol (reference only, matches verified on-chain source)
 paper-experiments/
   exp1-rpc-providers/       Exp.1 — independent-RPC reproducibility + chain-tip variant + input-completeness check
+  exp2-gas/                 Exp.2 — script that (re)builds exp2_gas.csv from the listed real tx hashes
   exp3-latency/             Exp.3 — processing-time measurement (single-session + multi-session variants)
   exp4-inflation/           Exp.4 — mission definition + local-fork inflation-resistance script
   results/                  CSV outputs reported in the paper
-  results/raw/              frozen real-tx-hash datasets Exp.1/Exp.3 were run against
+  results/raw/              frozen real-tx-hash datasets Exp.1/Exp.2/Exp.3 were run against
 ```
 
 ## Install
@@ -78,12 +80,28 @@ Other Exp.1 variants:
 
 ```bash
 # chain-tip variant — live, freshly collected wallets/TXs (not the frozen dataset); needs ETHERSCAN_API_KEY
+# the measured results reported in the paper (25 wallets, condA/condB stability, RPC-pair match
+# counts) are shipped as-is in results/exp1b_chaintip.csv + results/raw/exp1b_chaintip_summary.json —
+# a fresh run will fetch the current chain tip and so will not reproduce the exact same numbers
+# (chain state keeps moving forward; the paper is explicit about this), only the same methodology.
 node paper-experiments/exp1-rpc-providers/run-exp1-chaintip.mjs
 
-# input-completeness check — reuses the chain-tip script's output, demonstrates the
-# "fail closed instead of silently computing from a partial TX set" determinism condition
+# input-completeness check — this is the determinism condition behind the paper's reported
+# "21 MATCH / 4 UNVERIFIABLE / 0 silent mismatches" (results/exp1c_integrity_check.csv). It reuses
+# the frozen paper-experiments/results/raw/exp1b_chaintip_wallets.json shipped in this repo, so it
+# runs standalone without needing run-exp1-chaintip.mjs first.
 node paper-experiments/exp1-rpc-providers/run-exp1-integrity-check.mjs
 ```
+
+## Experiment 2 (on-chain gas cost) — data only
+
+No script to "run" in the reproducibility sense — `paper-experiments/results/exp2_gas.csv` lists
+every transaction hash the paper's gas figures come from (contract deployment, setup, Safe
+multisig, Timelock execution, 1 production issuance, 10 test issuances — see
+`results/raw/exp2_mainnet_test_issuance_gas.json` for the latter). Every `tx_hash` is independently
+checkable on [Polygonscan](https://polygonscan.com) — that's the point: no script needs to be
+trusted, just the public chain. `exp2-gas/build-exp2-csv.mjs` regenerates the CSV from the same
+hardcoded, already-public hash/gas values if you want to verify the USD conversion arithmetic.
 
 ## Reproduce Experiment 3 (processing-time latency)
 

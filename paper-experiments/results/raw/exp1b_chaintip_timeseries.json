@@ -1,0 +1,4002 @@
+[
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "A_finalized",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "B_latest",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "A_finalized",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "B_latest",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "A_finalized",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "B_latest",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "A_finalized",
+    "sessionRoot": "0x64c4b473be44c64b60d3e248594b0848efce0c27b5ff24866d9ceca80f93bfac",
+    "avgScore": 87,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "B_latest",
+    "sessionRoot": "0x64c4b473be44c64b60d3e248594b0848efce0c27b5ff24866d9ceca80f93bfac",
+    "avgScore": 87,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "A_finalized",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "B_latest",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "A_finalized",
+    "sessionRoot": "0x1981fe67088dcf3da23a904c914ac0da4ea75edf013df19d09264822315ae81f",
+    "avgScore": 82,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "B_latest",
+    "sessionRoot": "0x1981fe67088dcf3da23a904c914ac0da4ea75edf013df19d09264822315ae81f",
+    "avgScore": 82,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "A_finalized",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "B_latest",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "A_finalized",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "B_latest",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "A_finalized",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "B_latest",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "A_finalized",
+    "sessionRoot": "0x28d0e56922f3325815dc6e23c8f3e21a03434251927e0055ba741336fa8870f6",
+    "avgScore": 87,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "B_latest",
+    "sessionRoot": "0x28d0e56922f3325815dc6e23c8f3e21a03434251927e0055ba741336fa8870f6",
+    "avgScore": 87,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "A_finalized",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "B_latest",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "B_latest",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "A_finalized",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "B_latest",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "A_finalized",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "B_latest",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "A_finalized",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "B_latest",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "A_finalized",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "B_latest",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "A_finalized",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "B_latest",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "12709fada2348674",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "12709fada2348674",
+    "condition": "B_latest",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "B_latest",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "A_finalized",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "B_latest",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "A_finalized",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "B_latest",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xcf4b43b40068d259f1c676124b30aac11ad9ec1795aa1686dbca1de129c56a9e",
+    "avgScore": 88,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "B_latest",
+    "sessionRoot": "0xcf4b43b40068d259f1c676124b30aac11ad9ec1795aa1686dbca1de129c56a9e",
+    "avgScore": 88,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "B_latest",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "A_finalized",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "B_latest",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "alchemy",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "B_latest",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270030",
+    "finalizedHash": "0x6b852bc9b0040185bd3b4c511419fbd6bd7c715987aec4761c2e2425694c46a1"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "A_finalized",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "B_latest",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "A_finalized",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "B_latest",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "A_finalized",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "B_latest",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "A_finalized",
+    "sessionRoot": "0x8c7c04942e464249d101d2e0fcea2c64933fccc79cad2c7e496bb569c8a5db1a",
+    "avgScore": 88,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "B_latest",
+    "sessionRoot": "0x8c7c04942e464249d101d2e0fcea2c64933fccc79cad2c7e496bb569c8a5db1a",
+    "avgScore": 88,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "A_finalized",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "B_latest",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "A_finalized",
+    "sessionRoot": "0x3254a7fdaa05a858cfed3defddecd4c110935ff49d199938769e318818defd29",
+    "avgScore": 91,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "B_latest",
+    "sessionRoot": "0x3254a7fdaa05a858cfed3defddecd4c110935ff49d199938769e318818defd29",
+    "avgScore": 91,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "A_finalized",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "B_latest",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "A_finalized",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "B_latest",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "A_finalized",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "B_latest",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "A_finalized",
+    "sessionRoot": "0x0dafac65796bfb80203a249bf3a05de5b6efb765c2bd5b555883e0d34338e7f5",
+    "avgScore": 86,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "B_latest",
+    "sessionRoot": "0x0dafac65796bfb80203a249bf3a05de5b6efb765c2bd5b555883e0d34338e7f5",
+    "avgScore": 86,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "A_finalized",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "B_latest",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "B_latest",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "A_finalized",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "B_latest",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "A_finalized",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "B_latest",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "A_finalized",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "B_latest",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "A_finalized",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "B_latest",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "A_finalized",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "B_latest",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "12709fada2348674",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "12709fada2348674",
+    "condition": "B_latest",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "B_latest",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "A_finalized",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "B_latest",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "A_finalized",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "B_latest",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xa49ad4c8be5ded4878d344c244edcdd2367598167af274fe120cd0976be3afc8",
+    "avgScore": 87,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "B_latest",
+    "sessionRoot": "0xa49ad4c8be5ded4878d344c244edcdd2367598167af274fe120cd0976be3afc8",
+    "avgScore": 87,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "B_latest",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "A_finalized",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "B_latest",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 0,
+    "provider": "publicnode",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "B_latest",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270054",
+    "finalizedHash": "0x41972364642af443c5e4bb604653c69d473ace9d388747b0412cc0d70331da72"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "A_finalized",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "B_latest",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "A_finalized",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "B_latest",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "A_finalized",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "B_latest",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "A_finalized",
+    "sessionRoot": "0x64c4b473be44c64b60d3e248594b0848efce0c27b5ff24866d9ceca80f93bfac",
+    "avgScore": 87,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "B_latest",
+    "sessionRoot": "0x64c4b473be44c64b60d3e248594b0848efce0c27b5ff24866d9ceca80f93bfac",
+    "avgScore": 87,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "A_finalized",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "B_latest",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "A_finalized",
+    "sessionRoot": "0x1981fe67088dcf3da23a904c914ac0da4ea75edf013df19d09264822315ae81f",
+    "avgScore": 82,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "B_latest",
+    "sessionRoot": "0x1981fe67088dcf3da23a904c914ac0da4ea75edf013df19d09264822315ae81f",
+    "avgScore": 82,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "A_finalized",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "B_latest",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "A_finalized",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "B_latest",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "A_finalized",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "B_latest",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "A_finalized",
+    "sessionRoot": "0x28d0e56922f3325815dc6e23c8f3e21a03434251927e0055ba741336fa8870f6",
+    "avgScore": 87,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "B_latest",
+    "sessionRoot": "0x28d0e56922f3325815dc6e23c8f3e21a03434251927e0055ba741336fa8870f6",
+    "avgScore": 87,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "A_finalized",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "B_latest",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "B_latest",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "A_finalized",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "B_latest",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "A_finalized",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "B_latest",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "A_finalized",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "B_latest",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "A_finalized",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "B_latest",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "A_finalized",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "B_latest",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "12709fada2348674",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "12709fada2348674",
+    "condition": "B_latest",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "B_latest",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "A_finalized",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "B_latest",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "A_finalized",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "B_latest",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xcf4b43b40068d259f1c676124b30aac11ad9ec1795aa1686dbca1de129c56a9e",
+    "avgScore": 88,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "B_latest",
+    "sessionRoot": "0xcf4b43b40068d259f1c676124b30aac11ad9ec1795aa1686dbca1de129c56a9e",
+    "avgScore": 88,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "B_latest",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "A_finalized",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "B_latest",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "alchemy",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "B_latest",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270080",
+    "finalizedHash": "0x10a24965c4e455d0b17ee735c0e78aff7d91ea60eb6cd3db25cb33e732a038b3"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "A_finalized",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "B_latest",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "A_finalized",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "B_latest",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "A_finalized",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "B_latest",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "A_finalized",
+    "sessionRoot": "0x8c7c04942e464249d101d2e0fcea2c64933fccc79cad2c7e496bb569c8a5db1a",
+    "avgScore": 88,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "B_latest",
+    "sessionRoot": "0x8c7c04942e464249d101d2e0fcea2c64933fccc79cad2c7e496bb569c8a5db1a",
+    "avgScore": 88,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "A_finalized",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "B_latest",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "A_finalized",
+    "sessionRoot": "0x3254a7fdaa05a858cfed3defddecd4c110935ff49d199938769e318818defd29",
+    "avgScore": 91,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "B_latest",
+    "sessionRoot": "0x3254a7fdaa05a858cfed3defddecd4c110935ff49d199938769e318818defd29",
+    "avgScore": 91,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "A_finalized",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "B_latest",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "A_finalized",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "B_latest",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "A_finalized",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "B_latest",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "A_finalized",
+    "sessionRoot": "0x0dafac65796bfb80203a249bf3a05de5b6efb765c2bd5b555883e0d34338e7f5",
+    "avgScore": 86,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "B_latest",
+    "sessionRoot": "0x0dafac65796bfb80203a249bf3a05de5b6efb765c2bd5b555883e0d34338e7f5",
+    "avgScore": 86,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "A_finalized",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "B_latest",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "B_latest",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "A_finalized",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "B_latest",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "A_finalized",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "B_latest",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "A_finalized",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "B_latest",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "A_finalized",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "B_latest",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "A_finalized",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "B_latest",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "12709fada2348674",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "12709fada2348674",
+    "condition": "B_latest",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "B_latest",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "A_finalized",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "B_latest",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "A_finalized",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "B_latest",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xa49ad4c8be5ded4878d344c244edcdd2367598167af274fe120cd0976be3afc8",
+    "avgScore": 87,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "B_latest",
+    "sessionRoot": "0xa49ad4c8be5ded4878d344c244edcdd2367598167af274fe120cd0976be3afc8",
+    "avgScore": 87,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "B_latest",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "A_finalized",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "B_latest",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 5,
+    "provider": "publicnode",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "B_latest",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270096",
+    "finalizedHash": "0xd86a57aa8f8a2af44d9c79ed84cff478195c1ba2119aa202f4eac86651874cbf"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "A_finalized",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "B_latest",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "A_finalized",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "B_latest",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "A_finalized",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "B_latest",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "A_finalized",
+    "sessionRoot": "0x64c4b473be44c64b60d3e248594b0848efce0c27b5ff24866d9ceca80f93bfac",
+    "avgScore": 87,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "B_latest",
+    "sessionRoot": "0x64c4b473be44c64b60d3e248594b0848efce0c27b5ff24866d9ceca80f93bfac",
+    "avgScore": 87,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "A_finalized",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "B_latest",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "A_finalized",
+    "sessionRoot": "0x1981fe67088dcf3da23a904c914ac0da4ea75edf013df19d09264822315ae81f",
+    "avgScore": 82,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "B_latest",
+    "sessionRoot": "0x1981fe67088dcf3da23a904c914ac0da4ea75edf013df19d09264822315ae81f",
+    "avgScore": 82,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "A_finalized",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "B_latest",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "A_finalized",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "B_latest",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "A_finalized",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "B_latest",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "A_finalized",
+    "sessionRoot": "0x28d0e56922f3325815dc6e23c8f3e21a03434251927e0055ba741336fa8870f6",
+    "avgScore": 87,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "B_latest",
+    "sessionRoot": "0x28d0e56922f3325815dc6e23c8f3e21a03434251927e0055ba741336fa8870f6",
+    "avgScore": 87,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "A_finalized",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "B_latest",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "B_latest",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "A_finalized",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "B_latest",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "A_finalized",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "B_latest",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "A_finalized",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "B_latest",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "A_finalized",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "B_latest",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "A_finalized",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "B_latest",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "12709fada2348674",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "12709fada2348674",
+    "condition": "B_latest",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "B_latest",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "A_finalized",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "B_latest",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "A_finalized",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "B_latest",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xcf4b43b40068d259f1c676124b30aac11ad9ec1795aa1686dbca1de129c56a9e",
+    "avgScore": 88,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "B_latest",
+    "sessionRoot": "0xcf4b43b40068d259f1c676124b30aac11ad9ec1795aa1686dbca1de129c56a9e",
+    "avgScore": 88,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "B_latest",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "A_finalized",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "B_latest",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "alchemy",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "B_latest",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270110",
+    "finalizedHash": "0x9504122c09bdc9a7b37fa8b60efe6092a1153e9b29256b3e3d1b593957cd47b1"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "A_finalized",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "B_latest",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "A_finalized",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "B_latest",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "A_finalized",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "B_latest",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "A_finalized",
+    "sessionRoot": "0x8c7c04942e464249d101d2e0fcea2c64933fccc79cad2c7e496bb569c8a5db1a",
+    "avgScore": 88,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "B_latest",
+    "sessionRoot": "0x8c7c04942e464249d101d2e0fcea2c64933fccc79cad2c7e496bb569c8a5db1a",
+    "avgScore": 88,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "A_finalized",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "B_latest",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "A_finalized",
+    "sessionRoot": "0x3254a7fdaa05a858cfed3defddecd4c110935ff49d199938769e318818defd29",
+    "avgScore": 91,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "B_latest",
+    "sessionRoot": "0x3254a7fdaa05a858cfed3defddecd4c110935ff49d199938769e318818defd29",
+    "avgScore": 91,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "A_finalized",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "B_latest",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "A_finalized",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "B_latest",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "A_finalized",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "B_latest",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "A_finalized",
+    "sessionRoot": "0x0dafac65796bfb80203a249bf3a05de5b6efb765c2bd5b555883e0d34338e7f5",
+    "avgScore": 86,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "B_latest",
+    "sessionRoot": "0x0dafac65796bfb80203a249bf3a05de5b6efb765c2bd5b555883e0d34338e7f5",
+    "avgScore": 86,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "A_finalized",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "B_latest",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "B_latest",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "A_finalized",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "B_latest",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "A_finalized",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "B_latest",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "A_finalized",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "B_latest",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "A_finalized",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "B_latest",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "A_finalized",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "B_latest",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "12709fada2348674",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "12709fada2348674",
+    "condition": "B_latest",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "B_latest",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "A_finalized",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "B_latest",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "A_finalized",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "B_latest",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xa49ad4c8be5ded4878d344c244edcdd2367598167af274fe120cd0976be3afc8",
+    "avgScore": 87,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "B_latest",
+    "sessionRoot": "0xa49ad4c8be5ded4878d344c244edcdd2367598167af274fe120cd0976be3afc8",
+    "avgScore": 87,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "B_latest",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "A_finalized",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "B_latest",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 30,
+    "provider": "publicnode",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "B_latest",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270124",
+    "finalizedHash": "0x19e17c72d1a8983b9961fc49ab7636583f504ee190c5970245af910da245c873"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "A_finalized",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "B_latest",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "A_finalized",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "B_latest",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "A_finalized",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "B_latest",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "A_finalized",
+    "sessionRoot": "0x64c4b473be44c64b60d3e248594b0848efce0c27b5ff24866d9ceca80f93bfac",
+    "avgScore": 87,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "B_latest",
+    "sessionRoot": "0x64c4b473be44c64b60d3e248594b0848efce0c27b5ff24866d9ceca80f93bfac",
+    "avgScore": 87,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "A_finalized",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "B_latest",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "A_finalized",
+    "sessionRoot": "0x1981fe67088dcf3da23a904c914ac0da4ea75edf013df19d09264822315ae81f",
+    "avgScore": 82,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "B_latest",
+    "sessionRoot": "0x1981fe67088dcf3da23a904c914ac0da4ea75edf013df19d09264822315ae81f",
+    "avgScore": 82,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "A_finalized",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "B_latest",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "A_finalized",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "B_latest",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "A_finalized",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "B_latest",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "A_finalized",
+    "sessionRoot": "0x28d0e56922f3325815dc6e23c8f3e21a03434251927e0055ba741336fa8870f6",
+    "avgScore": 87,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "B_latest",
+    "sessionRoot": "0x28d0e56922f3325815dc6e23c8f3e21a03434251927e0055ba741336fa8870f6",
+    "avgScore": 87,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "A_finalized",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "B_latest",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "B_latest",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "A_finalized",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "B_latest",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "A_finalized",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "B_latest",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "A_finalized",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "B_latest",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "A_finalized",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "B_latest",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "A_finalized",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "B_latest",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "12709fada2348674",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "12709fada2348674",
+    "condition": "B_latest",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "B_latest",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "A_finalized",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "B_latest",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "A_finalized",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "B_latest",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xcf4b43b40068d259f1c676124b30aac11ad9ec1795aa1686dbca1de129c56a9e",
+    "avgScore": 88,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "B_latest",
+    "sessionRoot": "0xcf4b43b40068d259f1c676124b30aac11ad9ec1795aa1686dbca1de129c56a9e",
+    "avgScore": 88,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "B_latest",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "A_finalized",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "B_latest",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "alchemy",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "B_latest",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270138",
+    "finalizedHash": "0xfaf546937711260de01d8d0c8ef85d33441646f9cb18caa49faa01d2e75cbf45"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "A_finalized",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "9a2db50fed549492",
+    "condition": "B_latest",
+    "sessionRoot": "0x5178132cdf2c97d1f11329d32c8d32774a4ae3f93857ff03402682a9594bad2c",
+    "avgScore": 89,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "A_finalized",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "10f9a24c27212fe6",
+    "condition": "B_latest",
+    "sessionRoot": "0xdc9666aa43fff70bd9821c16a489d53da7847541ba3d1959c06ddb0f5749011f",
+    "avgScore": 82,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "A_finalized",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "6bc0771b338096c7",
+    "condition": "B_latest",
+    "sessionRoot": "0xd992fbaf7d5dfbf8485e4b0e723a09e974e9527354e461ecfbdb786394f05866",
+    "avgScore": 75,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "A_finalized",
+    "sessionRoot": "0x8c7c04942e464249d101d2e0fcea2c64933fccc79cad2c7e496bb569c8a5db1a",
+    "avgScore": 88,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "9144b0e90388bcd6",
+    "condition": "B_latest",
+    "sessionRoot": "0x8c7c04942e464249d101d2e0fcea2c64933fccc79cad2c7e496bb569c8a5db1a",
+    "avgScore": 88,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "A_finalized",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "c3a9182d5c02b23d",
+    "condition": "B_latest",
+    "sessionRoot": "0x8ea15418e39205f1450bfeae4189ad55b13e04028257315406b29ea973194807",
+    "avgScore": 87,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "A_finalized",
+    "sessionRoot": "0x3254a7fdaa05a858cfed3defddecd4c110935ff49d199938769e318818defd29",
+    "avgScore": 91,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "dc4b6ef2f2da67c9",
+    "condition": "B_latest",
+    "sessionRoot": "0x3254a7fdaa05a858cfed3defddecd4c110935ff49d199938769e318818defd29",
+    "avgScore": 91,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "A_finalized",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "7f287902a9613405",
+    "condition": "B_latest",
+    "sessionRoot": "0xab304633d4ce3750edc0e0adcc89b79cba9d142d21e740d4f191f753eb73be5f",
+    "avgScore": 84,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "A_finalized",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "96013a15b640f1cf",
+    "condition": "B_latest",
+    "sessionRoot": "0xda9bab65f966c83e5ba5d41a9b28c5c3eb6a597cb1567b629a41411e5486906a",
+    "avgScore": 86,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "A_finalized",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "e94439c48ca3b273",
+    "condition": "B_latest",
+    "sessionRoot": "0xb4faef20327f3ee1731674db60702e894eb784e200232b99dd8ab22d4c537dc4",
+    "avgScore": 75,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "A_finalized",
+    "sessionRoot": "0x0dafac65796bfb80203a249bf3a05de5b6efb765c2bd5b555883e0d34338e7f5",
+    "avgScore": 86,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "2d93d37cf6d28a58",
+    "condition": "B_latest",
+    "sessionRoot": "0x0dafac65796bfb80203a249bf3a05de5b6efb765c2bd5b555883e0d34338e7f5",
+    "avgScore": 86,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "A_finalized",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "d3dc3c4466219c08",
+    "condition": "B_latest",
+    "sessionRoot": "0xaa816de5db0e9df0d3a7e9a5b513056d28a7a40d653eecfcb811d969b66e10c0",
+    "avgScore": 76,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "513da758dc3ec652",
+    "condition": "B_latest",
+    "sessionRoot": "0xc53b17dbcdcc2ea5e373930079a43d5bc157f9ada38335ee09931ae120f5493a",
+    "avgScore": 78,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "A_finalized",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "27b27bd32762608e",
+    "condition": "B_latest",
+    "sessionRoot": "0x88356a0575ac85b0e9724e0b5da924c387c3ff0647954b89a0137b66f6c3e7b0",
+    "avgScore": 78,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "A_finalized",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "d21237085af4e26a",
+    "condition": "B_latest",
+    "sessionRoot": "0x14336bb74c89292755072059f4f0746ccd2d85081704302e929a847abcbef69a",
+    "avgScore": 74,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "A_finalized",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "ae5f79338e69a8a4",
+    "condition": "B_latest",
+    "sessionRoot": "0x3434bdf74c7a10df238dfdee482316a2e1bd24dc3f4ddaf179339e856d99e383",
+    "avgScore": 80,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "A_finalized",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "b9fb5c95e57cc9db",
+    "condition": "B_latest",
+    "sessionRoot": "0x00436c9bcad09b5216bfe9e1186e85fd0966f12e80e3fe93f1182b8215186fd3",
+    "avgScore": 74,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "A_finalized",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "04b82874a02efd6f",
+    "condition": "B_latest",
+    "sessionRoot": "0x369027c2981fd9e95f820e1324cdc76c8dee7cfb50fca5ddb935ea5ca3ed3cde",
+    "avgScore": 64,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "12709fada2348674",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "12709fada2348674",
+    "condition": "B_latest",
+    "sessionRoot": "0xbc30d437e90562226ce09c6eea033448e87deb0429586b111128aae7a2eb1f72",
+    "avgScore": 81,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "a2713e1c1bb32d8f",
+    "condition": "B_latest",
+    "sessionRoot": "0xe6da301c8dee78f557035705ab23624e4fe80c30d9798e8c2dea4ad714131b28",
+    "avgScore": 84,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "A_finalized",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "178ab50c1af4c206",
+    "condition": "B_latest",
+    "sessionRoot": "0x1002da144ace0ac50172294e3f611fdd95d7c413fe5e5c58b44f4092fca5a2f7",
+    "avgScore": 83,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "A_finalized",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "7be9776828c925a3",
+    "condition": "B_latest",
+    "sessionRoot": "0x91fbd0c75b33c61ac3a50771f09ee7a77ab75df5ba6858136392c54fa12e5ce8",
+    "avgScore": 81,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "A_finalized",
+    "sessionRoot": "0xa49ad4c8be5ded4878d344c244edcdd2367598167af274fe120cd0976be3afc8",
+    "avgScore": 87,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "71abdb1b1948461f",
+    "condition": "B_latest",
+    "sessionRoot": "0xa49ad4c8be5ded4878d344c244edcdd2367598167af274fe120cd0976be3afc8",
+    "avgScore": 87,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "A_finalized",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "db027eaad28715d4",
+    "condition": "B_latest",
+    "sessionRoot": "0xc44fbc58680873d389af36d9b13b755255bea00afdc918a16d568fc0a959c311",
+    "avgScore": 67,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "A_finalized",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "31952ad76062dcba",
+    "condition": "B_latest",
+    "sessionRoot": "0x6292be4181dc7925ceede9ab1228a428737b0236d9f40a4055dd4d6a2540b874",
+    "avgScore": 78,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "A_finalized",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  },
+  {
+    "tSec": 120,
+    "provider": "publicnode",
+    "wallet_hash": "748826873d6b9171",
+    "condition": "B_latest",
+    "sessionRoot": "0xbf00d4d632b40241e189185947657963b9b1d65d90fa03ef13a1e74869bc4e61",
+    "avgScore": 36,
+    "finalizedBlock": "95270166",
+    "finalizedHash": "0x77eb7b0a2a4c6c883e6c6ad0041e9c0cef0ef6057cf6758d230b05442591aa1a"
+  }
+]
