@@ -1,0 +1,16 @@
+{
+  "name": "onchain-cert-eval-paper-repro",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reproduction package for the paper \"A Third-Party Reproducible Framework for On-Chain Behavior-Based Competency Certification\" — evaluation pipeline core + experiment scripts (Exp.1 RPC reproducibility, Exp.3 processing-time latency, Exp.4 inflation resistance on a local Polygon fork).",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

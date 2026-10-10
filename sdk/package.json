@@ -1,0 +1,27 @@
+{
+  "name": "onchain-cert-eval-core",
+  "version": "0.1.0",
+  "description": "On-chain behavior-based competency evaluation pipeline — core (110 DomainAdapter -> 120 Collection -> 130 SessionConstructor -> 140 FeatureExtractor -> 150 Scorer -> 160 session-root aggregation). Extracted from @coincraft/onchain-cert-sdk for paper reproduction; issuance/burn/KMS-signing/validator-network modules are out of scope.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  }
+}

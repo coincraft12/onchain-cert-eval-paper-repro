@@ -1,0 +1,82 @@
+{
+  "_comment": "RuleSet v1.2.0 (2026-07-06). Adversarial testing 발견 반영: execute absencePenalty 강화 · stepViolations 알고리즘 반영.",
+
+  "version": "1.2.0",
+  "missionId": "SC-DEV-PRO-M1",
+  "trackId": "web3-architect-pro",
+  "chainScope": [137],
+  "validFrom": 1754049600,
+
+  "gradeThresholds": {
+    "basic": 50,
+    "associate": 75,
+    "professional": 90
+  },
+
+  "featureWeights": {
+    "efficiency": 0.2,
+    "stability": 0.15,
+    "coherence": 0.25,
+    "riskPattern": 0.25,
+    "excellence": 0.15
+  },
+
+  "sessionBoundaryRule": {
+    "_comment": "3h 30min 감독 세션 스케일 반영. 30분 무활동 = 이상 신호",
+    "timeoutSeconds": 1800,
+    "minActionCount": 5,
+    "boundaryActionTypes": [],
+    "stateMachine": {
+      "_comment": "요구사항 순서 준수 검증. Etherscan functionName 정확도에 의존. mark-violation policy",
+      "initialState": "empty",
+      "transitions": [
+        { "from": "empty",              "actionType": "constructor",         "to": "deployed-1" },
+        { "from": "deployed-1",         "actionType": "constructor",         "to": "deployed-2" },
+        { "from": "deployed-2",         "actionType": "constructor",         "to": "deployed-3" },
+        { "from": "deployed-3",         "actionType": "constructor",         "to": "deployed-4" },
+        { "from": "deployed-4",         "actionType": "setup",               "to": "safe-configured" },
+        { "from": "deployed-4",         "actionType": "constructor",         "to": "deployed-5" },
+        { "from": "deployed-5",         "actionType": "setup",               "to": "safe-configured" },
+        { "from": "safe-configured",    "actionType": "transferOwnership",   "to": "ownership-transferred" },
+        { "from": "ownership-transferred", "actionType": "constructor",      "to": "new-impl-deployed" },
+        { "from": "new-impl-deployed",  "actionType": "schedule",            "to": "upgrade-scheduled" },
+        { "from": "ownership-transferred", "actionType": "schedule",         "to": "upgrade-scheduled" },
+        { "from": "upgrade-scheduled",  "actionType": "execute",             "to": "verified" }
+      ],
+      "terminalStates": ["verified"],
+      "invalidTransitionPolicy": "mark-violation"
+    }
+  },
+
+  "evidenceMapping": [
+    { "actionType": "constructor",       "contributions": { "excellence": 0.15, "efficiency": 0.10 } },
+    { "actionType": "setup",             "contributions": { "excellence": 0.15, "coherence": 0.15 } },
+    {
+      "actionType": "transferOwnership",
+      "contributions": { "coherence": 0.25, "riskPattern": 0.35 },
+      "absencePenalty": { "riskPattern": 0.50, "coherence": 0.30 }
+    },
+    {
+      "actionType": "schedule",
+      "contributions": { "excellence": 0.20, "coherence": 0.20, "riskPattern": 0.30 },
+      "absencePenalty": { "riskPattern": 0.30, "coherence": 0.20, "excellence": 0.20 }
+    },
+    {
+      "actionType": "execute",
+      "contributions": { "coherence": 0.15, "excellence": 0.10 },
+      "absencePenalty": { "coherence": 0.30, "excellence": 0.20, "riskPattern": 0.25 }
+    },
+    { "actionType": "internal:create",   "contributions": { "excellence": 0.10 } }
+  ],
+
+  "issuerSet": [
+    "0x402a8ec6e432ef3293d88cee5d886335689f7a3f"
+  ],
+
+  "examMeta": {
+    "_note": "Path A 전용 RuleSet 이므로 examMeta 는 미사용",
+    "totalQuestions": 0,
+    "passingScore": 0,
+    "questionBankRef": ""
+  }
+}

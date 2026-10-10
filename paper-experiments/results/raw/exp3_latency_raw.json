@@ -1,0 +1,930 @@
+{
+  "measuredAtKst": "2026. 10. 10. 오후 3:53:01",
+  "node": "v22.14.0",
+  "platform": "win32",
+  "repsPerCell": 10,
+  "warmupReps": 1,
+  "sourceData": "exp1_router_txlist_raw.json",
+  "rawResults": {
+    "n10_noCheck": [
+      {
+        "inputCheck": 0,
+        "normalize": 0.6832,
+        "session": 1.0279,
+        "feature": 0.0951,
+        "score": 0.017,
+        "total": 1.8232,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 0.4706,
+        "session": 1.9621,
+        "feature": 0.3637,
+        "score": 0.0728,
+        "total": 2.8692,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 0.4567,
+        "session": 1.0639,
+        "feature": 0.1364,
+        "score": 0.039,
+        "total": 1.696,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 0.7359,
+        "session": 1.2407,
+        "feature": 0.2749,
+        "score": 0.0296,
+        "total": 2.2811,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 0.5055,
+        "session": 1.0133,
+        "feature": 0.34,
+        "score": 0.0311,
+        "total": 1.8899000000000001,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 0.4934,
+        "session": 1.0167,
+        "feature": 0.108,
+        "score": 0.0135,
+        "total": 1.6316000000000002,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 0.3125,
+        "session": 0.8071,
+        "feature": 0.0603,
+        "score": 0.0157,
+        "total": 1.1956000000000002,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 0.3917,
+        "session": 0.953,
+        "feature": 0.0948,
+        "score": 0.0147,
+        "total": 1.4542,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 0.3032,
+        "session": 0.8344,
+        "feature": 0.0578,
+        "score": 0.0079,
+        "total": 1.2033,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 0.2995,
+        "session": 0.7484,
+        "feature": 0.0475,
+        "score": 0.0065,
+        "total": 1.1018999999999999,
+        "sessionCount": 1
+      }
+    ],
+    "n10_withCheck": [
+      {
+        "inputCheck": 0.0203,
+        "normalize": 0.2868,
+        "session": 5.5518,
+        "feature": 0.1807,
+        "score": 0.0223,
+        "total": 6.0619000000000005,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0734,
+        "normalize": 0.4436,
+        "session": 1.3803,
+        "feature": 0.1377,
+        "score": 0.0172,
+        "total": 2.0522,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.02,
+        "normalize": 0.4255,
+        "session": 1.027,
+        "feature": 0.0964,
+        "score": 0.0108,
+        "total": 1.5796999999999999,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0131,
+        "normalize": 0.4937,
+        "session": 1.1906,
+        "feature": 0.0897,
+        "score": 0.0117,
+        "total": 1.7988000000000002,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0148,
+        "normalize": 0.3936,
+        "session": 0.9046,
+        "feature": 0.0631,
+        "score": 0.0087,
+        "total": 1.3847999999999998,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0105,
+        "normalize": 0.3766,
+        "session": 0.8969,
+        "feature": 0.0524,
+        "score": 0.0066,
+        "total": 1.343,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0074,
+        "normalize": 0.3537,
+        "session": 0.8539,
+        "feature": 0.0491,
+        "score": 0.0077,
+        "total": 1.2718,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0071,
+        "normalize": 0.3521,
+        "session": 0.9374,
+        "feature": 0.061,
+        "score": 0.0075,
+        "total": 1.3651,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0091,
+        "normalize": 0.2888,
+        "session": 0.6233,
+        "feature": 0.0384,
+        "score": 0.0052,
+        "total": 0.9648,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0041,
+        "normalize": 0.252,
+        "session": 0.6041,
+        "feature": 0.0305,
+        "score": 0.0043,
+        "total": 0.8949999999999999,
+        "sessionCount": 1
+      }
+    ],
+    "n50_noCheck": [
+      {
+        "inputCheck": 0,
+        "normalize": 2.1849,
+        "session": 4.2609,
+        "feature": 0.1545,
+        "score": 0.0123,
+        "total": 6.6126,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 1.6202,
+        "session": 3.0731,
+        "feature": 0.1859,
+        "score": 0.013,
+        "total": 4.892200000000001,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 1.4455,
+        "session": 6.5677,
+        "feature": 0.1569,
+        "score": 0.008,
+        "total": 8.1781,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 1.2493,
+        "session": 3.1056,
+        "feature": 0.1581,
+        "score": 0.0083,
+        "total": 4.5213,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 1.3204,
+        "session": 3.0544,
+        "feature": 0.1154,
+        "score": 0.0077,
+        "total": 4.4979,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 1.6556,
+        "session": 3.2784,
+        "feature": 0.1308,
+        "score": 0.0096,
+        "total": 5.0744,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 1.279,
+        "session": 2.8844,
+        "feature": 0.2408,
+        "score": 0.009,
+        "total": 4.4132,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 1.2848,
+        "session": 2.9919,
+        "feature": 0.1101,
+        "score": 0.0071,
+        "total": 4.3939,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 1.2254,
+        "session": 2.9197,
+        "feature": 0.1466,
+        "score": 0.0125,
+        "total": 4.304200000000001,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 1.464,
+        "session": 3.4016,
+        "feature": 0.1276,
+        "score": 0.0077,
+        "total": 5.000900000000001,
+        "sessionCount": 1
+      }
+    ],
+    "n50_withCheck": [
+      {
+        "inputCheck": 0.0176,
+        "normalize": 1.2869,
+        "session": 3.0124,
+        "feature": 0.096,
+        "score": 0.0052,
+        "total": 4.418100000000001,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0168,
+        "normalize": 1.2696,
+        "session": 3.6746,
+        "feature": 0.1282,
+        "score": 0.0097,
+        "total": 5.0988999999999995,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.021,
+        "normalize": 1.3175,
+        "session": 3.5211,
+        "feature": 0.1243,
+        "score": 0.0093,
+        "total": 4.9932,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0212,
+        "normalize": 2.5074,
+        "session": 4.3743,
+        "feature": 0.1056,
+        "score": 0.0073,
+        "total": 7.0158,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0294,
+        "normalize": 1.706,
+        "session": 3.4081,
+        "feature": 0.1275,
+        "score": 0.0101,
+        "total": 5.281100000000001,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0266,
+        "normalize": 1.2013,
+        "session": 2.5396,
+        "feature": 0.087,
+        "score": 0.0057,
+        "total": 3.8602000000000003,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0151,
+        "normalize": 1.11,
+        "session": 2.46,
+        "feature": 0.075,
+        "score": 0.0046,
+        "total": 3.6647,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0116,
+        "normalize": 1.1166,
+        "session": 2.4895,
+        "feature": 0.0981,
+        "score": 0.0061,
+        "total": 3.7219,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.021,
+        "normalize": 1.4048,
+        "session": 3.224,
+        "feature": 0.1024,
+        "score": 0.0068,
+        "total": 4.759,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0185,
+        "normalize": 1.1843,
+        "session": 4.0084,
+        "feature": 0.1483,
+        "score": 0.0104,
+        "total": 5.3698999999999995,
+        "sessionCount": 1
+      }
+    ],
+    "n100_noCheck": [
+      {
+        "inputCheck": 0,
+        "normalize": 2.7109,
+        "session": 5.9749,
+        "feature": 0.2345,
+        "score": 0.0108,
+        "total": 8.9311,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 2.4793,
+        "session": 13.7842,
+        "feature": 0.533,
+        "score": 0.0298,
+        "total": 16.826300000000003,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 3.7431,
+        "session": 10.1213,
+        "feature": 0.5195,
+        "score": 0.0212,
+        "total": 14.405100000000001,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 3.7576,
+        "session": 8.2282,
+        "feature": 0.1896,
+        "score": 0.0084,
+        "total": 12.1838,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 2.302,
+        "session": 4.9619,
+        "feature": 0.1758,
+        "score": 0.0065,
+        "total": 7.446199999999999,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 2.2555,
+        "session": 6.2128,
+        "feature": 0.1505,
+        "score": 0.0065,
+        "total": 8.6253,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 2.1959,
+        "session": 4.9772,
+        "feature": 0.1563,
+        "score": 0.0072,
+        "total": 7.3366,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 2.5047,
+        "session": 5.9526,
+        "feature": 0.1356,
+        "score": 0.0069,
+        "total": 8.5998,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 2.2516,
+        "session": 4.9454,
+        "feature": 0.1831,
+        "score": 0.0071,
+        "total": 7.3872,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 2.9474,
+        "session": 5.8676,
+        "feature": 0.1897,
+        "score": 0.0074,
+        "total": 9.012100000000002,
+        "sessionCount": 1
+      }
+    ],
+    "n100_withCheck": [
+      {
+        "inputCheck": 0.0337,
+        "normalize": 2.4319,
+        "session": 6.0137,
+        "feature": 0.2722,
+        "score": 0.011,
+        "total": 8.7625,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0438,
+        "normalize": 3.5364,
+        "session": 6.33,
+        "feature": 0.3253,
+        "score": 0.0124,
+        "total": 10.2479,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0642,
+        "normalize": 4.2753,
+        "session": 8.0151,
+        "feature": 0.1882,
+        "score": 0.0106,
+        "total": 12.5534,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0445,
+        "normalize": 2.5979,
+        "session": 6.1368,
+        "feature": 0.3238,
+        "score": 0.014,
+        "total": 9.116999999999999,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0759,
+        "normalize": 3.7591,
+        "session": 7.2187,
+        "feature": 0.4237,
+        "score": 0.0106,
+        "total": 11.488,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0602,
+        "normalize": 4.1357,
+        "session": 5.3017,
+        "feature": 0.2104,
+        "score": 0.0072,
+        "total": 9.7152,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0357,
+        "normalize": 2.2084,
+        "session": 5.3896,
+        "feature": 0.2044,
+        "score": 0.0077,
+        "total": 7.845799999999999,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0395,
+        "normalize": 2.3991,
+        "session": 5.3855,
+        "feature": 0.1524,
+        "score": 0.0079,
+        "total": 7.9844,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0315,
+        "normalize": 2.3591,
+        "session": 7.9317,
+        "feature": 0.4894,
+        "score": 0.0225,
+        "total": 10.834200000000001,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.1708,
+        "normalize": 4.9238,
+        "session": 6.5723,
+        "feature": 0.199,
+        "score": 0.0143,
+        "total": 11.8802,
+        "sessionCount": 1
+      }
+    ],
+    "n500_noCheck": [
+      {
+        "inputCheck": 0,
+        "normalize": 13.3776,
+        "session": 25.29,
+        "feature": 0.5663,
+        "score": 0.0066,
+        "total": 39.2405,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 12.0632,
+        "session": 27.8456,
+        "feature": 0.6084,
+        "score": 0.0077,
+        "total": 40.5249,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 13.3481,
+        "session": 30.4551,
+        "feature": 0.58,
+        "score": 0.0084,
+        "total": 44.391600000000004,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 11.4977,
+        "session": 26.8006,
+        "feature": 0.5145,
+        "score": 0.0069,
+        "total": 38.8197,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 11.3684,
+        "session": 27.1269,
+        "feature": 0.5652,
+        "score": 0.0122,
+        "total": 39.0727,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 11.8861,
+        "session": 25.6145,
+        "feature": 0.6284,
+        "score": 0.0066,
+        "total": 38.1356,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 11.8827,
+        "session": 26.5977,
+        "feature": 0.6507,
+        "score": 0.0093,
+        "total": 39.14040000000001,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 10.9678,
+        "session": 28.6332,
+        "feature": 0.5821,
+        "score": 0.0071,
+        "total": 40.1902,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 12.1906,
+        "session": 27.8146,
+        "feature": 0.5589,
+        "score": 0.0079,
+        "total": 40.572,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 11.2382,
+        "session": 26.7462,
+        "feature": 0.4275,
+        "score": 0.0072,
+        "total": 38.4191,
+        "sessionCount": 1
+      }
+    ],
+    "n500_withCheck": [
+      {
+        "inputCheck": 0.1336,
+        "normalize": 14.215,
+        "session": 30.7862,
+        "feature": 0.8637,
+        "score": 0.0084,
+        "total": 46.0069,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.1281,
+        "normalize": 13.3722,
+        "session": 26.9692,
+        "feature": 0.6164,
+        "score": 0.0076,
+        "total": 41.09349999999999,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0941,
+        "normalize": 11.0523,
+        "session": 30.2434,
+        "feature": 0.8128,
+        "score": 0.0141,
+        "total": 42.2167,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.2377,
+        "normalize": 13.5616,
+        "session": 31.3718,
+        "feature": 0.3805,
+        "score": 0.0079,
+        "total": 45.5595,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.096,
+        "normalize": 11.9506,
+        "session": 30.0067,
+        "feature": 0.6352,
+        "score": 0.0143,
+        "total": 42.702799999999996,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.2199,
+        "normalize": 12.1386,
+        "session": 30.1697,
+        "feature": 0.4005,
+        "score": 0.0084,
+        "total": 42.9371,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.0995,
+        "normalize": 11.2582,
+        "session": 26.584,
+        "feature": 0.5433,
+        "score": 0.0102,
+        "total": 38.4952,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.1336,
+        "normalize": 13.2445,
+        "session": 29.4966,
+        "feature": 0.4543,
+        "score": 0.0098,
+        "total": 43.338800000000006,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.112,
+        "normalize": 14.6048,
+        "session": 26.0314,
+        "feature": 0.364,
+        "score": 0.009,
+        "total": 41.121199999999995,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.114,
+        "normalize": 10.9701,
+        "session": 27.1847,
+        "feature": 0.4301,
+        "score": 0.0083,
+        "total": 38.7072,
+        "sessionCount": 1
+      }
+    ],
+    "n1000_noCheck": [
+      {
+        "inputCheck": 0,
+        "normalize": 24.5995,
+        "session": 57.9696,
+        "feature": 0.9888,
+        "score": 0.0148,
+        "total": 83.57269999999998,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 23.0535,
+        "session": 58.876,
+        "feature": 0.8077,
+        "score": 0.0087,
+        "total": 82.74589999999999,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 24.2387,
+        "session": 57.1213,
+        "feature": 0.9812,
+        "score": 0.0096,
+        "total": 82.3508,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 25.8964,
+        "session": 62.6779,
+        "feature": 1.2481,
+        "score": 0.0131,
+        "total": 89.83549999999998,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 25.0059,
+        "session": 56.0926,
+        "feature": 0.8341,
+        "score": 0.0074,
+        "total": 81.94000000000001,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 22.1254,
+        "session": 55.6242,
+        "feature": 0.9359,
+        "score": 0.0078,
+        "total": 78.69330000000001,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 25.2516,
+        "session": 56.1994,
+        "feature": 0.7454,
+        "score": 0.0077,
+        "total": 82.2041,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 23.1684,
+        "session": 51.0285,
+        "feature": 0.7216,
+        "score": 0.0079,
+        "total": 74.9264,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 22.7993,
+        "session": 56.2528,
+        "feature": 0.8308,
+        "score": 0.0069,
+        "total": 79.8898,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0,
+        "normalize": 22.3931,
+        "session": 53.8966,
+        "feature": 0.9052,
+        "score": 0.0128,
+        "total": 77.20769999999999,
+        "sessionCount": 1
+      }
+    ],
+    "n1000_withCheck": [
+      {
+        "inputCheck": 0.1523,
+        "normalize": 22.4474,
+        "session": 55.4027,
+        "feature": 0.594,
+        "score": 0.0072,
+        "total": 78.60359999999999,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.1008,
+        "normalize": 22.2481,
+        "session": 58.0269,
+        "feature": 0.6112,
+        "score": 0.0073,
+        "total": 80.9943,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.1061,
+        "normalize": 23.1211,
+        "session": 51.1053,
+        "feature": 1.1024,
+        "score": 0.0125,
+        "total": 75.4474,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.13,
+        "normalize": 28.5069,
+        "session": 65.2085,
+        "feature": 0.7734,
+        "score": 0.0075,
+        "total": 94.62629999999999,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.1042,
+        "normalize": 23.804,
+        "session": 53.8968,
+        "feature": 0.5836,
+        "score": 0.0073,
+        "total": 78.3959,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.103,
+        "normalize": 22.8908,
+        "session": 50.9014,
+        "feature": 0.6887,
+        "score": 0.0078,
+        "total": 74.5917,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.1066,
+        "normalize": 23.5749,
+        "session": 55.5674,
+        "feature": 0.9866,
+        "score": 0.0103,
+        "total": 80.24579999999999,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.1915,
+        "normalize": 23.408,
+        "session": 55.9092,
+        "feature": 0.6769,
+        "score": 0.0073,
+        "total": 80.19290000000001,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.1069,
+        "normalize": 22.6648,
+        "session": 58.064,
+        "feature": 0.7697,
+        "score": 0.0095,
+        "total": 81.6149,
+        "sessionCount": 1
+      },
+      {
+        "inputCheck": 0.1487,
+        "normalize": 25.837,
+        "session": 54.7726,
+        "feature": 0.7494,
+        "score": 0.0107,
+        "total": 81.51839999999999,
+        "sessionCount": 1
+      }
+    ]
+  }
+}
