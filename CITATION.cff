@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this reproduction package, please cite it as below."
+title: "onchain-cert-eval-paper-repro: Reproduction package for on-chain behavior-based competency certification"
+version: v1.0.1-paper
+type: software
+authors:
+  - family-names: Kim
+    given-names: Eungjun
+    affiliation: CoinCraft
+repository-code: "https://github.com/coincraft12/onchain-cert-eval-paper-repro"
+license: PolyForm-Noncommercial-1.0.0
+keywords:
+  - soulbound token
+  - competency certification
+  - on-chain behavior
+  - reproducibility
+  - Polygon
+abstract: >-
+  Reproduction package for the paper "A Third-Party Reproducible Framework for On-Chain
+  Behavior-Based Competency Certification". Contains the evaluation pipeline core, the rule sets
+  used in the experiments, the Experiment 1-4 scripts, frozen real transaction-hash datasets,
+  result CSVs, and read-only on-chain verification evidence for the deployment facts quoted in the paper.
