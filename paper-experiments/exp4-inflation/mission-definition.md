@@ -5,7 +5,7 @@
 ## 환경
 
 - **Polygon 메인넷 로컬 포크** (`anvil --fork-url <Alchemy Polygon RPC> --port 8546 --chain-id 137`)
-- 포크 시점 블록: `#95,189,290` (2026-10-10 KST 기동 시점의 실제 체인 최신 블록 상태를 그대로 복제)
+- 포크 시점 블록: `#95,271,472` (실행 기록 `results/raw/exp4_inflation_raw.json`의 `forkBlockNumber`). 2026-10-22 정정: 이 문서에는 이전에 `#95,189,290`으로 적혀 있었으나, 실행 당시 원본 기록(raw JSON)의 값은 95,271,472이며 논문 본문과 일치한다. 이전 표기는 문서 작성 시 잘못 옮겨 적은 값이고 실험 결과(`exp4_inflation.csv`)에는 영향이 없다.
 - 비용 0 (가스비 실비용 없음, anvil 테스트 계정에 `anvil_setBalance`로 가상 POL 지급)
 - 실제 메인넷에 배포된 **진짜 컨트랙트 바이트코드·상태**(WMATIC, QuickSwap V2 Router)를 대상으로 TX를 실행 — 합성 컨트랙트 아님
 - 지갑: `anvil_impersonateAccount`로 임의의 신규 EOA 주소를 가장(개인키 불필요, 로컬 포크 전용 cheat code) — 실제 사용자 지갑을 가져다 쓰지 않음(프라이버시·무관성)

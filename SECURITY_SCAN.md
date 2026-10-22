@@ -82,3 +82,24 @@ an internal script that was a candidate for inclusion) and was fixed by excludin
 shipping a rewritten, anonymized equivalent instead — not merely redacting, but confirming the
 replacement script and its output verify byte-identical elsewhere. Re-scanned clean after the fix.
 The repository is clear to publish as far as this scan can determine.
+
+---
+
+## Addendum — 2026-10-22 (on-chain verification files added)
+
+Scope: files added/changed in this commit only (`paper-experiments/verification/`, new files under
+`paper-experiments/results/` and `results/raw/`, `rulesets/SC-DEV-PRO-M1.json`, `rulesets/build-sc-dev-pro-m1.mjs`,
+`README.md`, `exp4-inflation/mission-definition.md`).
+
+- **gitleaks: not run for this addendum** — the binary was not available on the machine used. Replaced by the
+  manual checks below; re-run gitleaks before the next release if possible.
+- Manual checks, all clean:
+  - RPC URL / provider-key patterns (`alchemy.com/v2/<key>`, `infura.io/v3/<key>`, dRPC, PublicNode): 0 matches
+    (only the pre-existing `YOUR_KEY` placeholder in README).
+  - `privateKey|mnemonic|seedPhrase|AKIA…`, `kms`, real-name romanizations, `sharon`, `coincraft.edu`, `@gmail`: 0 matches
+    in new files (README's existing statements that KMS/issuance code is *excluded* are unchanged).
+  - High-entropy string scan (strings ≥32 chars that are not `0x` hashes/addresses or decimal token ids): only file-path strings.
+- Deliberately **not** published: Safe owner addresses (count and threshold only), validator addresses and `nodeId`
+  strings, transaction sender (`from`) addresses, user addresses of the 3 extra mints.
+- Everything in `deployment_info.json` and the new CSV/JSON files is public on-chain data (contract addresses,
+  tx hashes, blocks, gas).

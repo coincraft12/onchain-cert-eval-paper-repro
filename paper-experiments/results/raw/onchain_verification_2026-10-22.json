@@ -1,0 +1,618 @@
+{
+  "_comment": "verify-onchain-claims.mjs / verify-revocation-and-issuance.mjs 의 원출력(2026-10-22). 검증자 주소·nodeId, Safe 소유자 주소, 영수증의 from 주소는 공개 파일에서 제외.",
+  "scan": {
+    "latestBlock": 95981521,
+    "proxyFirstCodeBlock": 89346326,
+    "timelockFirstCodeBlock": 89346322,
+    "safeFirstCodeBlock": 89345725,
+    "implementation": "0x52717cc53C420c44c7734918488b4EdAf2516073",
+    "proxyOwner": "0x51caF45eB42eb648dee04f24271134E7046eA2a4",
+    "erc5192": true,
+    "registry": {
+      "address": "0x07D7EB170964D555db1D270B2B7dDAc9A3C8fC67",
+      "threshold": "1",
+      "activeCount": "2",
+      "owner": "0x51caF45eB42eb648dee04f24271134E7046eA2a4",
+      "firstCodeBlock": 89346317,
+      "validators": [
+        {
+          "index": 0,
+          "active": false
+        },
+        {
+          "index": 1,
+          "active": true
+        },
+        {
+          "index": 2,
+          "active": true
+        }
+      ],
+      "removedEvents": 1,
+      "thresholdHistory": [
+        {
+          "block": 89346317,
+          "old": "0",
+          "new": "1",
+          "tx": "0xfc86bae61aa64862f520f4eee83c8beed9fc1e1339502b597c45b0caab421d66"
+        }
+      ]
+    },
+    "timelock": {
+      "minDelay": "86400",
+      "roles": {
+        "PROPOSER_ROLE": {
+          "safeHasRole": true,
+          "timelockSelfHasRole": false
+        },
+        "EXECUTOR_ROLE": {
+          "safeHasRole": false,
+          "timelockSelfHasRole": false
+        },
+        "CANCELLER_ROLE": {
+          "safeHasRole": true,
+          "timelockSelfHasRole": false
+        },
+        "DEFAULT_ADMIN_ROLE": {
+          "safeHasRole": false,
+          "timelockSelfHasRole": true
+        }
+      },
+      "proxyOwnerIsTimelock": true
+    },
+    "safe": {
+      "threshold": "2",
+      "ownerCount": 3,
+      "version": "1.4.1"
+    },
+    "mintedEvents": [
+      {
+        "block": 89397599,
+        "tx": "0x92288640286c73ef053d5f39dee665dca37c889f3581d7aa6de4d336afbe1db4",
+        "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+        "tokenId": "36369060224608372408979828418596813350740125414622481717559600896287722343899",
+        "grade": 1,
+        "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+      },
+      {
+        "block": 89509260,
+        "tx": "0x81866eed2d3bfbf1eca3a1bccee7c669c4990277bb57f21871f2b200a05ab98e",
+        "missionId": "0xa4170b54c9ddd2670cf41ce9df7385960fddd4fa92366e44fc3da21f3ae2809f",
+        "tokenId": "105473004944891015983290071560391432364600050154101011505133681428896851378338",
+        "grade": 1,
+        "ruleSetId": "0x52093236e15a0b78594e5e9407ac13be68ffa6992ce1e178e366d82a8c1ee316"
+      },
+      {
+        "block": 89510873,
+        "tx": "0x2436bedcbb02bb8f25995d7b268826818374c613e5488f9f2981a9bab26e05ba",
+        "missionId": "0xa4170b54c9ddd2670cf41ce9df7385960fddd4fa92366e44fc3da21f3ae2809f",
+        "tokenId": "63227004539665082482466389307602408040494779279378526694302950092551431883292",
+        "grade": 1,
+        "ruleSetId": "0x52093236e15a0b78594e5e9407ac13be68ffa6992ce1e178e366d82a8c1ee316"
+      },
+      {
+        "block": 89511620,
+        "tx": "0xa4cb241cd54c7794fb3abd8f545a3358be64cfabe7af40c159d9d82515a666d0",
+        "missionId": "0xa4170b54c9ddd2670cf41ce9df7385960fddd4fa92366e44fc3da21f3ae2809f",
+        "tokenId": "103583484843564925968603917339217023815778581718282090904905401962906233069114",
+        "grade": 1,
+        "ruleSetId": "0x52093236e15a0b78594e5e9407ac13be68ffa6992ce1e178e366d82a8c1ee316"
+      },
+      {
+        "block": 95268907,
+        "tx": "0xfb5bad736c944396c310279be12f756d9fdd4517e11d875e6eaa694d3f2f42b8",
+        "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+        "tokenId": "61592827870467717223560600311181026307540042004058090159470300475355585758857",
+        "grade": 1,
+        "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+      },
+      {
+        "block": 95268916,
+        "tx": "0x19ff1efaad2046c6eb88e271cb10ed3a5928f093e98c51199cd0495750a5ad11",
+        "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+        "tokenId": "29588600193101276610906741509864716300346126148949023139111341763067734329239",
+        "grade": 1,
+        "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+      },
+      {
+        "block": 95268923,
+        "tx": "0xdd17db10d5e235e16a71b922b719f3ba2d8d8f98e39f361dfad5e0f31480f7f6",
+        "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+        "tokenId": "58650714434938577845817022424990675528288898979020247577922097659411591041527",
+        "grade": 2,
+        "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+      },
+      {
+        "block": 95268930,
+        "tx": "0xba2d3b97bac38a79092e5c8dd1755ddf32356ea7d903307ec18c375db1cc0790",
+        "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+        "tokenId": "31291840037016969125684988966276500100375507238045680180407794400320648573225",
+        "grade": 1,
+        "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+      },
+      {
+        "block": 95268936,
+        "tx": "0xe8836b1b8d9ae65a7c2ef1316d9b1c0c3b617f17ec99c87e854b4cfa44fd704a",
+        "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+        "tokenId": "19733364299149524116822769156527637348843325920620307267527399237929811885360",
+        "grade": 2,
+        "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+      },
+      {
+        "block": 95268942,
+        "tx": "0xe12ec4edf5545af9585b3410ed9e37f2cdbc7297858b2f651d9b88f469b274b7",
+        "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+        "tokenId": "90756551933173381046461856848466575110662431341459802365766911477264849919172",
+        "grade": 1,
+        "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+      },
+      {
+        "block": 95268948,
+        "tx": "0x5368fc64ce63c02c70f267b93655415b8877b38aeead757e6a6c627d58af6ba9",
+        "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+        "tokenId": "6743736528816442174324988361837213189420986501412167330005655427631393091957",
+        "grade": 3,
+        "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+      },
+      {
+        "block": 95268954,
+        "tx": "0x81d342ac87d2bebd1f0120bd703ac6605a1b723dec758d4d77313d6c17e02ba3",
+        "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+        "tokenId": "6647339809888415972360033769340062099264706445621606958043066676723013317586",
+        "grade": 1,
+        "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+      },
+      {
+        "block": 95268961,
+        "tx": "0x51bf46b07e78e05bd7776412266c28cb6e7b01f0c78bce8184da551b5dadd7e3",
+        "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+        "tokenId": "106571423644947166586023868601611548052839715128030303544868467740995170910572",
+        "grade": 2,
+        "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+      },
+      {
+        "block": 95268968,
+        "tx": "0x1d7b6f010ef977c98537d27be27f53f129c245d45ec1c4b0ffa86c5076afa7b3",
+        "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+        "tokenId": "88123692331407222959265545032012151929618407204810325370234637385267640613424",
+        "grade": 1,
+        "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+      }
+    ],
+    "ruleSetApproved": [
+      {
+        "block": 89346335,
+        "tx": "0x0dfcbcc817e442fec42b2705bd2b7859ded339ccb580e5f6c3200726b8176eb3",
+        "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+        "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+      },
+      {
+        "block": 89492485,
+        "tx": "0xd81579b051a4f4296d39f006e71b762341841beef428cb9ecae11c2402ff777b",
+        "missionId": "0xa4170b54c9ddd2670cf41ce9df7385960fddd4fa92366e44fc3da21f3ae2809f",
+        "ruleSetId": "0x52093236e15a0b78594e5e9407ac13be68ffa6992ce1e178e366d82a8c1ee316"
+      }
+    ],
+    "ruleSetRevoked": [],
+    "revokedEvents": [
+      {
+        "block": 95349427,
+        "tx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "tokenId": "61592827870467717223560600311181026307540042004058090159470300475355585758857",
+        "reason": 3
+      },
+      {
+        "block": 95349427,
+        "tx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "tokenId": "29588600193101276610906741509864716300346126148949023139111341763067734329239",
+        "reason": 3
+      },
+      {
+        "block": 95349427,
+        "tx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "tokenId": "58650714434938577845817022424990675528288898979020247577922097659411591041527",
+        "reason": 3
+      },
+      {
+        "block": 95349427,
+        "tx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "tokenId": "31291840037016969125684988966276500100375507238045680180407794400320648573225",
+        "reason": 3
+      },
+      {
+        "block": 95349427,
+        "tx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "tokenId": "19733364299149524116822769156527637348843325920620307267527399237929811885360",
+        "reason": 3
+      },
+      {
+        "block": 95349427,
+        "tx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "tokenId": "90756551933173381046461856848466575110662431341459802365766911477264849919172",
+        "reason": 3
+      },
+      {
+        "block": 95349427,
+        "tx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "tokenId": "6743736528816442174324988361837213189420986501412167330005655427631393091957",
+        "reason": 3
+      },
+      {
+        "block": 95349427,
+        "tx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "tokenId": "6647339809888415972360033769340062099264706445621606958043066676723013317586",
+        "reason": 3
+      },
+      {
+        "block": 95349427,
+        "tx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "tokenId": "106571423644947166586023868601611548052839715128030303544868467740995170910572",
+        "reason": 3
+      },
+      {
+        "block": 95349427,
+        "tx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "tokenId": "88123692331407222959265545032012151929618407204810325370234637385267640613424",
+        "reason": 3
+      }
+    ]
+  },
+  "revocationAndIssuance": {
+    "revocation": {
+      "operationId": "0x8fce4af707b06101a9a62f7785104781681bf15fdcabf6b4c15a40e3094d923d",
+      "scheduleLogsFound": 10,
+      "executeLogsFound": 10,
+      "scheduleTx": {
+        "txHash": "0xfa0ce8e1111bb5b5e3221d7ecd214045ab03fdc1786a53244365e30e275d07e1",
+        "blockNumber": 95270941,
+        "blockTimestampUtc": "2026-10-10T05:54:21.000Z",
+        "status": "success",
+        "gasUsed": 219230,
+        "effectiveGasPriceGwei": 232.335431485,
+        "costPOL": "0.05093489664445655",
+        "to": "0x2a04904440d4c340dbed5031b31cbdced19b0df5"
+      },
+      "executeTx": {
+        "txHash": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "blockNumber": 95349427,
+        "blockTimestampUtc": "2026-10-11T14:36:51.000Z",
+        "status": "success",
+        "gasUsed": 1465131,
+        "effectiveGasPriceGwei": 395.057218872,
+        "costPOL": "0.578810578143152232",
+        "to": "0x781388759eacb9892f60d77d9a99c9be2f7f4ada"
+      },
+      "isOperationDone": true
+    },
+    "testTokens": [
+      {
+        "tokenId": "61592827870467717223560600311181026307540042004058090159470300475355585758857",
+        "revoked": true,
+        "ownerOfReverts": true,
+        "revocationReason": 3,
+        "revokedAtUtc": "2026-10-11T14:36:51.000Z",
+        "revokedEventTx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "revokedEventBlock": 95349427
+      },
+      {
+        "tokenId": "29588600193101276610906741509864716300346126148949023139111341763067734329239",
+        "revoked": true,
+        "ownerOfReverts": true,
+        "revocationReason": 3,
+        "revokedAtUtc": "2026-10-11T14:36:51.000Z",
+        "revokedEventTx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "revokedEventBlock": 95349427
+      },
+      {
+        "tokenId": "58650714434938577845817022424990675528288898979020247577922097659411591041527",
+        "revoked": true,
+        "ownerOfReverts": true,
+        "revocationReason": 3,
+        "revokedAtUtc": "2026-10-11T14:36:51.000Z",
+        "revokedEventTx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "revokedEventBlock": 95349427
+      },
+      {
+        "tokenId": "31291840037016969125684988966276500100375507238045680180407794400320648573225",
+        "revoked": true,
+        "ownerOfReverts": true,
+        "revocationReason": 3,
+        "revokedAtUtc": "2026-10-11T14:36:51.000Z",
+        "revokedEventTx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "revokedEventBlock": 95349427
+      },
+      {
+        "tokenId": "19733364299149524116822769156527637348843325920620307267527399237929811885360",
+        "revoked": true,
+        "ownerOfReverts": true,
+        "revocationReason": 3,
+        "revokedAtUtc": "2026-10-11T14:36:51.000Z",
+        "revokedEventTx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "revokedEventBlock": 95349427
+      },
+      {
+        "tokenId": "90756551933173381046461856848466575110662431341459802365766911477264849919172",
+        "revoked": true,
+        "ownerOfReverts": true,
+        "revocationReason": 3,
+        "revokedAtUtc": "2026-10-11T14:36:51.000Z",
+        "revokedEventTx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "revokedEventBlock": 95349427
+      },
+      {
+        "tokenId": "6743736528816442174324988361837213189420986501412167330005655427631393091957",
+        "revoked": true,
+        "ownerOfReverts": true,
+        "revocationReason": 3,
+        "revokedAtUtc": "2026-10-11T14:36:51.000Z",
+        "revokedEventTx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "revokedEventBlock": 95349427
+      },
+      {
+        "tokenId": "6647339809888415972360033769340062099264706445621606958043066676723013317586",
+        "revoked": true,
+        "ownerOfReverts": true,
+        "revocationReason": 3,
+        "revokedAtUtc": "2026-10-11T14:36:51.000Z",
+        "revokedEventTx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "revokedEventBlock": 95349427
+      },
+      {
+        "tokenId": "106571423644947166586023868601611548052839715128030303544868467740995170910572",
+        "revoked": true,
+        "ownerOfReverts": true,
+        "revocationReason": 3,
+        "revokedAtUtc": "2026-10-11T14:36:51.000Z",
+        "revokedEventTx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "revokedEventBlock": 95349427
+      },
+      {
+        "tokenId": "88123692331407222959265545032012151929618407204810325370234637385267640613424",
+        "revoked": true,
+        "ownerOfReverts": true,
+        "revocationReason": 3,
+        "revokedAtUtc": "2026-10-11T14:36:51.000Z",
+        "revokedEventTx": "0xe913295f3e073bb9077ed073a5b806a5176f2640299245dea612165497a2b7f9",
+        "revokedEventBlock": 95349427
+      }
+    ],
+    "issuance": {
+      "totalMintedEvents": 14,
+      "items": [
+        {
+          "category": "other",
+          "mintBlock": 89397599,
+          "mintTx": "0x92288640286c73ef053d5f39dee665dca37c889f3581d7aa6de4d336afbe1db4",
+          "tokenId": "36369060224608372408979828418596813350740125414622481717559600896287722343899",
+          "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+          "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870",
+          "grade": 1,
+          "gasUsed": 458945,
+          "effectiveGasPriceGwei": 283.477935577,
+          "costPOL": "0.130100781143386265",
+          "blockTimestampUtc": "2026-06-30T06:36:34.000Z",
+          "revoked": false,
+          "currentOwnerExists": true
+        },
+        {
+          "category": "other",
+          "mintBlock": 89509260,
+          "mintTx": "0x81866eed2d3bfbf1eca3a1bccee7c669c4990277bb57f21871f2b200a05ab98e",
+          "tokenId": "105473004944891015983290071560391432364600050154101011505133681428896851378338",
+          "missionId": "0xa4170b54c9ddd2670cf41ce9df7385960fddd4fa92366e44fc3da21f3ae2809f",
+          "ruleSetId": "0x52093236e15a0b78594e5e9407ac13be68ffa6992ce1e178e366d82a8c1ee316",
+          "grade": 1,
+          "gasUsed": 461553,
+          "effectiveGasPriceGwei": 280.748663279,
+          "costPOL": "0.129580387782412287",
+          "blockTimestampUtc": "2026-07-02T05:08:05.000Z",
+          "revoked": false,
+          "currentOwnerExists": true
+        },
+        {
+          "category": "other",
+          "mintBlock": 89510873,
+          "mintTx": "0x2436bedcbb02bb8f25995d7b268826818374c613e5488f9f2981a9bab26e05ba",
+          "tokenId": "63227004539665082482466389307602408040494779279378526694302950092551431883292",
+          "missionId": "0xa4170b54c9ddd2670cf41ce9df7385960fddd4fa92366e44fc3da21f3ae2809f",
+          "ruleSetId": "0x52093236e15a0b78594e5e9407ac13be68ffa6992ce1e178e366d82a8c1ee316",
+          "grade": 1,
+          "gasUsed": 443697,
+          "effectiveGasPriceGwei": 284.035090551,
+          "costPOL": "0.126025517572207047",
+          "blockTimestampUtc": "2026-07-02T05:48:25.000Z",
+          "revoked": false,
+          "currentOwnerExists": true
+        },
+        {
+          "category": "other",
+          "mintBlock": 89511620,
+          "mintTx": "0xa4cb241cd54c7794fb3abd8f545a3358be64cfabe7af40c159d9d82515a666d0",
+          "tokenId": "103583484843564925968603917339217023815778581718282090904905401962906233069114",
+          "missionId": "0xa4170b54c9ddd2670cf41ce9df7385960fddd4fa92366e44fc3da21f3ae2809f",
+          "ruleSetId": "0x52093236e15a0b78594e5e9407ac13be68ffa6992ce1e178e366d82a8c1ee316",
+          "grade": 1,
+          "gasUsed": 443625,
+          "effectiveGasPriceGwei": 282.945314342,
+          "costPOL": "0.12552161507496975",
+          "blockTimestampUtc": "2026-07-02T06:07:05.000Z",
+          "revoked": false,
+          "currentOwnerExists": true
+        },
+        {
+          "category": "test(폐기 대상 10건)",
+          "mintBlock": 95268907,
+          "mintTx": "0xfb5bad736c944396c310279be12f756d9fdd4517e11d875e6eaa694d3f2f42b8",
+          "tokenId": "61592827870467717223560600311181026307540042004058090159470300475355585758857",
+          "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+          "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870",
+          "grade": 1,
+          "gasUsed": 490064,
+          "effectiveGasPriceGwei": 275.866513442,
+          "costPOL": "0.135192247043440288",
+          "blockTimestampUtc": "2026-10-10T05:03:30.000Z",
+          "revoked": true,
+          "currentOwnerExists": false
+        },
+        {
+          "category": "test(폐기 대상 10건)",
+          "mintBlock": 95268916,
+          "mintTx": "0x19ff1efaad2046c6eb88e271cb10ed3a5928f093e98c51199cd0495750a5ad11",
+          "tokenId": "29588600193101276610906741509864716300346126148949023139111341763067734329239",
+          "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+          "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870",
+          "grade": 1,
+          "gasUsed": 490076,
+          "effectiveGasPriceGwei": 275.58093857,
+          "costPOL": "0.13505560405063132",
+          "blockTimestampUtc": "2026-10-10T05:03:43.000Z",
+          "revoked": true,
+          "currentOwnerExists": false
+        },
+        {
+          "category": "test(폐기 대상 10건)",
+          "mintBlock": 95268923,
+          "mintTx": "0xdd17db10d5e235e16a71b922b719f3ba2d8d8f98e39f361dfad5e0f31480f7f6",
+          "tokenId": "58650714434938577845817022424990675528288898979020247577922097659411591041527",
+          "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+          "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870",
+          "grade": 2,
+          "gasUsed": 490064,
+          "effectiveGasPriceGwei": 275.084965505,
+          "costPOL": "0.13480923853524232",
+          "blockTimestampUtc": "2026-10-10T05:03:54.000Z",
+          "revoked": true,
+          "currentOwnerExists": false
+        },
+        {
+          "category": "test(폐기 대상 10건)",
+          "mintBlock": 95268930,
+          "mintTx": "0xba2d3b97bac38a79092e5c8dd1755ddf32356ea7d903307ec18c375db1cc0790",
+          "tokenId": "31291840037016969125684988966276500100375507238045680180407794400320648573225",
+          "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+          "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870",
+          "grade": 1,
+          "gasUsed": 490064,
+          "effectiveGasPriceGwei": 276.969660545,
+          "costPOL": "0.13573285972532488",
+          "blockTimestampUtc": "2026-10-10T05:04:04.000Z",
+          "revoked": true,
+          "currentOwnerExists": false
+        },
+        {
+          "category": "test(폐기 대상 10건)",
+          "mintBlock": 95268936,
+          "mintTx": "0xe8836b1b8d9ae65a7c2ef1316d9b1c0c3b617f17ec99c87e854b4cfa44fd704a",
+          "tokenId": "19733364299149524116822769156527637348843325920620307267527399237929811885360",
+          "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+          "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870",
+          "grade": 2,
+          "gasUsed": 490064,
+          "effectiveGasPriceGwei": 277.382173589,
+          "costPOL": "0.135935017517719696",
+          "blockTimestampUtc": "2026-10-10T05:04:13.000Z",
+          "revoked": true,
+          "currentOwnerExists": false
+        },
+        {
+          "category": "test(폐기 대상 10건)",
+          "mintBlock": 95268942,
+          "mintTx": "0xe12ec4edf5545af9585b3410ed9e37f2cdbc7297858b2f651d9b88f469b274b7",
+          "tokenId": "90756551933173381046461856848466575110662431341459802365766911477264849919172",
+          "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+          "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870",
+          "grade": 1,
+          "gasUsed": 490076,
+          "effectiveGasPriceGwei": 277.706939315,
+          "costPOL": "0.13609750599173794",
+          "blockTimestampUtc": "2026-10-10T05:04:22.000Z",
+          "revoked": true,
+          "currentOwnerExists": false
+        },
+        {
+          "category": "test(폐기 대상 10건)",
+          "mintBlock": 95268948,
+          "mintTx": "0x5368fc64ce63c02c70f267b93655415b8877b38aeead757e6a6c627d58af6ba9",
+          "tokenId": "6743736528816442174324988361837213189420986501412167330005655427631393091957",
+          "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+          "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870",
+          "grade": 3,
+          "gasUsed": 490064,
+          "effectiveGasPriceGwei": 273.791066089,
+          "costPOL": "0.134175145011839696",
+          "blockTimestampUtc": "2026-10-10T05:04:31.000Z",
+          "revoked": true,
+          "currentOwnerExists": false
+        },
+        {
+          "category": "test(폐기 대상 10건)",
+          "mintBlock": 95268954,
+          "mintTx": "0x81d342ac87d2bebd1f0120bd703ac6605a1b723dec758d4d77313d6c17e02ba3",
+          "tokenId": "6647339809888415972360033769340062099264706445621606958043066676723013317586",
+          "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+          "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870",
+          "grade": 1,
+          "gasUsed": 490076,
+          "effectiveGasPriceGwei": 275.777757713,
+          "costPOL": "0.135152060388956188",
+          "blockTimestampUtc": "2026-10-10T05:04:40.000Z",
+          "revoked": true,
+          "currentOwnerExists": false
+        },
+        {
+          "category": "test(폐기 대상 10건)",
+          "mintBlock": 95268961,
+          "mintTx": "0x51bf46b07e78e05bd7776412266c28cb6e7b01f0c78bce8184da551b5dadd7e3",
+          "tokenId": "106571423644947166586023868601611548052839715128030303544868467740995170910572",
+          "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+          "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870",
+          "grade": 2,
+          "gasUsed": 490040,
+          "effectiveGasPriceGwei": 273.943237557,
+          "costPOL": "0.13424314413243228",
+          "blockTimestampUtc": "2026-10-10T05:04:51.000Z",
+          "revoked": true,
+          "currentOwnerExists": false
+        },
+        {
+          "category": "test(폐기 대상 10건)",
+          "mintBlock": 95268968,
+          "mintTx": "0x1d7b6f010ef977c98537d27be27f53f129c245d45ec1c4b0ffa86c5076afa7b3",
+          "tokenId": "88123692331407222959265545032012151929618407204810325370234637385267640613424",
+          "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+          "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870",
+          "grade": 1,
+          "gasUsed": 490064,
+          "effectiveGasPriceGwei": 274.315725021,
+          "costPOL": "0.134432261466691344",
+          "blockTimestampUtc": "2026-10-10T05:05:01.000Z",
+          "revoked": true,
+          "currentOwnerExists": false
+        }
+      ],
+      "fromGasFileHashes": 10
+    },
+    "ruleSetApprovals": [
+      {
+        "block": 89346335,
+        "tx": "0x0dfcbcc817e442fec42b2705bd2b7859ded339ccb580e5f6c3200726b8176eb3",
+        "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+        "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+      },
+      {
+        "block": 89492485,
+        "tx": "0xd81579b051a4f4296d39f006e71b762341841beef428cb9ecae11c2402ff777b",
+        "missionId": "0xa4170b54c9ddd2670cf41ce9df7385960fddd4fa92366e44fc3da21f3ae2809f",
+        "ruleSetId": "0x52093236e15a0b78594e5e9407ac13be68ffa6992ce1e178e366d82a8c1ee316"
+      }
+    ],
+    "scDevProM1": {
+      "ruleSetId": "0xdb2378ffc4ecd58bb08c7d4a99b034d27aaeccef0cf59efb002aee0f05563dc0",
+      "ruleSetIdAmongApprovedEvents": false,
+      "ruleSetIdAmongMintedEvents": false
+    },
+    "timelockExecutor": {
+      "zeroAddressHasExecutorRole": true
+    }
+  }
+}

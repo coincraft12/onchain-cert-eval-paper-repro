@@ -1,0 +1,58 @@
+{
+  "_comment": "원고의 '누적 발급 14건(운영 1, 테스트 13)' 중 저장소 results에 없던 3건. TokenMinted 이벤트 14건에서 (운영 #1, exp2 테스트 10건)을 제외하고 남은 3건. 사용자 주소는 기록하지 않음. 현재 상태는 2026-10-22 조회.",
+  "totalTokenMintedEvents": 14,
+  "classification": {
+    "operationalFirst": 1,
+    "exp2TestRevoked": 10,
+    "extraThree": 3
+  },
+  "operationalFirst_reference": {
+    "mintTx": "0x92288640286c73ef053d5f39dee665dca37c889f3581d7aa6de4d336afbe1db4",
+    "block": 89397599
+  },
+  "extraIssuances": [
+    {
+      "mintTx": "0x81866eed2d3bfbf1eca3a1bccee7c669c4990277bb57f21871f2b200a05ab98e",
+      "mintBlock": 89509260,
+      "mintTimeUtc": "2026-07-02T05:08:05.000Z",
+      "tokenId": "105473004944891015983290071560391432364600050154101011505133681428896851378338",
+      "missionId": "0xa4170b54c9ddd2670cf41ce9df7385960fddd4fa92366e44fc3da21f3ae2809f",
+      "ruleSetId": "0x52093236e15a0b78594e5e9407ac13be68ffa6992ce1e178e366d82a8c1ee316",
+      "grade": 1,
+      "gasUsed": 461553,
+      "effectiveGasPriceGwei": 280.749,
+      "costPOL": "0.129580387782412287",
+      "revoked": false,
+      "tokenStillExists": true
+    },
+    {
+      "mintTx": "0x2436bedcbb02bb8f25995d7b268826818374c613e5488f9f2981a9bab26e05ba",
+      "mintBlock": 89510873,
+      "mintTimeUtc": "2026-07-02T05:48:25.000Z",
+      "tokenId": "63227004539665082482466389307602408040494779279378526694302950092551431883292",
+      "missionId": "0xa4170b54c9ddd2670cf41ce9df7385960fddd4fa92366e44fc3da21f3ae2809f",
+      "ruleSetId": "0x52093236e15a0b78594e5e9407ac13be68ffa6992ce1e178e366d82a8c1ee316",
+      "grade": 1,
+      "gasUsed": 443697,
+      "effectiveGasPriceGwei": 284.035,
+      "costPOL": "0.126025517572207047",
+      "revoked": false,
+      "tokenStillExists": true
+    },
+    {
+      "mintTx": "0xa4cb241cd54c7794fb3abd8f545a3358be64cfabe7af40c159d9d82515a666d0",
+      "mintBlock": 89511620,
+      "mintTimeUtc": "2026-07-02T06:07:05.000Z",
+      "tokenId": "103583484843564925968603917339217023815778581718282090904905401962906233069114",
+      "missionId": "0xa4170b54c9ddd2670cf41ce9df7385960fddd4fa92366e44fc3da21f3ae2809f",
+      "ruleSetId": "0x52093236e15a0b78594e5e9407ac13be68ffa6992ce1e178e366d82a8c1ee316",
+      "grade": 1,
+      "gasUsed": 443625,
+      "effectiveGasPriceGwei": 282.945,
+      "costPOL": "0.12552161507496975",
+      "revoked": false,
+      "tokenStillExists": true
+    }
+  ],
+  "note": "3건 모두 ODA-BASIC 미션(ruleSetId 0x5209…e316)으로 2026-07-02에 발급됐고 폐기되지 않았다. 이 기록만으로는 '이전 시스템 검증용(Task#12)'인지 온체인으로 구분할 수 없다."
+}

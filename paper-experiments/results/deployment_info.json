@@ -1,0 +1,85 @@
+{
+  "_comment": "Polygon PoS(137) 메인넷 온체인 조회 결과(읽기 전용, 아카이브 RPC). 재현: paper-experiments/verification/verify-onchain-claims.mjs. Safe 소유자 주소와 검증자 nodeId는 공개하지 않고 개수/threshold만 기록한다.",
+  "queriedAtUtcDate": "2026-10-22",
+  "queriedAtBlock": 95981521,
+  "chainId": 137,
+  "sbtProxy": {
+    "address": "0xb7e3B228308F97431de7d4d4b7690A35B23052Ba",
+    "deploymentBlock": 89346326,
+    "deploymentBlockMethod": "getCode 이분 탐색으로 확인한 코드 최초 존재 블록",
+    "implementation": "0x52717cc53C420c44c7734918488b4EdAf2516073",
+    "implementationSource": "EIP-1967 implementation 슬롯(0x3608…2bbc)",
+    "owner": "0x51caF45eB42eb648dee04f24271134E7046eA2a4",
+    "ownerIsTimelock": true,
+    "erc5192Supported": true,
+    "erc5192InterfaceId": "0xb45a3c0e"
+  },
+  "timelock": {
+    "address": "0x51caF45eB42eb648dee04f24271134E7046eA2a4",
+    "deploymentBlock": 89346322,
+    "minDelaySeconds": 86400,
+    "roles": {
+      "PROPOSER_ROLE": {
+        "safeHasRole": true
+      },
+      "CANCELLER_ROLE": {
+        "safeHasRole": true
+      },
+      "EXECUTOR_ROLE": {
+        "safeHasRole": false,
+        "openExecutor_zeroAddressHasRole": true,
+        "note": "address(0)에 EXECUTOR_ROLE이 부여되어 있어, 지연 시간이 지난 예약 작업은 누구나 실행할 수 있다(제안·취소는 Safe만)."
+      },
+      "DEFAULT_ADMIN_ROLE": {
+        "timelockItselfHasRole": true,
+        "safeHasRole": false
+      }
+    }
+  },
+  "safe": {
+    "address": "0x2A04904440D4C340dBEd5031b31CBDCEd19b0dF5",
+    "deploymentBlock": 89345725,
+    "version": "1.4.1",
+    "threshold": 2,
+    "ownerCount": 3,
+    "ownerAddressesPublished": false
+  },
+  "validatorRegistry": {
+    "address": "0x07D7EB170964D555db1D270B2B7dDAc9A3C8fC67",
+    "deploymentBlock": 89346317,
+    "owner": "0x51caF45eB42eb648dee04f24271134E7046eA2a4",
+    "ownerIsTimelock": true,
+    "threshold": 1,
+    "activeValidatorCount": 2,
+    "everRegisteredValidatorCount": 3,
+    "removedValidatorEvents": 1,
+    "thresholdUpdateEvents": 1,
+    "note": "threshold=1: 활성 검증자 1명의 서명만으로 발급이 통과된다. 활성 검증자 수는 2이지만 임계값은 올라간 적이 없다(ThresholdUpdated 이벤트는 배포 시 0→1 한 번뿐)."
+  },
+  "ruleSetApprovals": [
+    {
+      "block": 89346335,
+      "tx": "0x0dfcbcc817e442fec42b2705bd2b7859ded339ccb580e5f6c3200726b8176eb3",
+      "missionId": "0xd978967241b49be5ae60301fdc77640c4d2d7d2925caf26fe9a0205179cd11e9",
+      "ruleSetId": "0x3448650389a755cd2b2f204659814590d33effaa47393d56e80c85ffd1952870"
+    },
+    {
+      "block": 89492485,
+      "tx": "0xd81579b051a4f4296d39f006e71b762341841beef428cb9ecae11c2402ff777b",
+      "missionId": "0xa4170b54c9ddd2670cf41ce9df7385960fddd4fa92366e44fc3da21f3ae2809f",
+      "ruleSetId": "0x52093236e15a0b78594e5e9407ac13be68ffa6992ce1e178e366d82a8c1ee316"
+    }
+  ],
+  "ruleSetRevocations": 0,
+  "scDevProM1": {
+    "ruleSetId": "0xdb2378ffc4ecd58bb08c7d4a99b034d27aaeccef0cf59efb002aee0f05563dc0",
+    "approvedOnChainForAnyMission": false,
+    "usedInAnyIssuance": false,
+    "note": "missionId(windowStart/End 미확정)가 없어 isRuleSetApproved 직접 호출은 불가. 대신 RuleSetApproved 이벤트 전수 조회에서 이 ruleSetId가 어떤 미션으로도 승인된 적이 없음을 확인."
+  },
+  "issuance": {
+    "tokenMintedEvents": 14,
+    "revokedEvents": 10,
+    "currentlyActive": 4
+  }
+}

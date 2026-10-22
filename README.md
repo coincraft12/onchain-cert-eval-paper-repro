@@ -30,7 +30,7 @@ This is a curated subset of a larger private system. Deliberately excluded:
 
 ```
 sdk/                        evaluation pipeline core (TypeScript, builds to sdk/dist)
-rulesets/                   GENERIC-R1.json, SC-DEV-PRO-M1-ruleset.json, + the script that derives GENERIC-R1's ruleSetId
+rulesets/                   GENERIC-R1.json, SC-DEV-PRO-M1-ruleset.json (+ canonical body/ruleSetId in SC-DEV-PRO-M1.json), and the scripts that derive both ruleSetIds
 contracts/                  CompetencyAttestationSBTV4.sol (reference only, matches verified on-chain source)
 paper-experiments/
   exp1-rpc-providers/       Exp.1 — independent-RPC reproducibility + chain-tip variant + input-completeness check
@@ -39,6 +39,7 @@ paper-experiments/
   exp4-inflation/           Exp.4 — mission definition + local-fork inflation-resistance script
   results/                  CSV outputs reported in the paper
   results/raw/              frozen real-tx-hash datasets Exp.1/Exp.2/Exp.3 were run against
+  verification/             read-only on-chain checks of the deployment facts quoted in the paper (added 2026-10-22)
 ```
 
 ## Install
@@ -132,6 +133,38 @@ node paper-experiments/exp4-inflation/run-exp4-inflation-fork.mjs
 ```
 
 Mission definition and methodology: `paper-experiments/exp4-inflation/mission-definition.md`.
+
+## On-chain deployment facts (read-only verification, 2026-10-22)
+
+The deployment details quoted in the paper were checked directly against Polygon PoS mainnet with
+read-only calls (`eth_call`, `eth_getLogs`, `eth_getTransactionReceipt`, `eth_getCode`); no transaction
+was sent. Machine-readable result: `paper-experiments/results/deployment_info.json`. Scripts:
+`paper-experiments/verification/` (need an archive RPC; `getLogs` scans use `INFURA_POLYGON_RPC_URL`
+because free Alchemy plans cap `getLogs` at 10 blocks).
+
+| Item | On-chain value |
+|---|---|
+| SBT proxy | `0xb7e3B228308F97431de7d4d4b7690A35B23052Ba`, first block with code 89,346,326 |
+| Implementation (EIP-1967 slot) | `0x52717cc53C420c44c7734918488b4EdAf2516073` |
+| Proxy owner | the Timelock `0x51caF45eB42eb648dee04f24271134E7046eA2a4` |
+| Timelock `getMinDelay()` | 86,400 s (24 h). PROPOSER and CANCELLER: the Safe. EXECUTOR: **open** (`address(0)` holds the role, so anyone can execute a matured operation) |
+| Safe `0x2A04…0dF5` | threshold 2, 3 owners (owner addresses not published here) |
+| ERC-5192 (`supportsInterface(0xb45a3c0e)`) | `true` |
+| Validator registry | `0x07D7EB170964D555db1D270B2B7dDAc9A3C8fC67`, owned by the Timelock. **`threshold() = 1`** with 2 active validators: a single validator signature is enough to issue. The threshold has never been raised. |
+| Approved rule sets | two `(missionId, ruleSetId)` pairs only (see `deployment_info.json`). **SC-DEV-PRO-M1 (`0xdb2378ff…3dc0`) has never been approved on-chain.** |
+
+SC-DEV-PRO-M1's `ruleSetId` is derived from the canonical body in `rulesets/SC-DEV-PRO-M1.json`
+(`node rulesets/build-sc-dev-pro-m1.mjs`, same procedure as `build-generic-r1.mjs`).
+
+Revocation of the 10 Exp.2 test tokens (Timelock `scheduleBatch` → 24 h → `executeBatch`):
+`results/exp2_revocation_gas.csv` (gas, price, POL cost per transaction) and
+`results/exp2_revocation_token_state.csv` (all 10 tokens `revoked = true`, `ownerOf` reverts).
+`results/exp2_extra_test_issuances.json` lists the 3 further mints that make the cumulative total 14
+(1 production + 10 revoked tests + 3 unrevoked mints on the ODA-BASIC mission).
+
+Exp.1 chain-tip ages: `results/exp1c_tx_age.csv` / `exp1c_tx_age_summary.json` give each transaction's
+actual block timestamp and its age at the chain-tip observation time, next to the age that results from
+assuming a 2.0 s block time (`age_days_if_2s_blocks`).
 
 ## API keys you need (all free tier)
 
