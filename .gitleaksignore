@@ -1,0 +1,10 @@
+# gitleaks 오탐 4건 (2026-10-23 확인): 공개 지갑 데이터셋의 라벨 문자열(`wallet2_...`)이 'key: "..."' 형태라서
+# generic-api-key 규칙(엔트로피 3.62)에 걸린 것이다. 공개 지갑 라벨이며 비밀이 아니다. 이력은 다시 쓰지 않는다.
+ad6988a694af789901bfa729b0e8887a820782b2:SECURITY_SCAN.md:generic-api-key:22
+a86f04bb45b8aa570154cc72b0dfb1933048191e:SECURITY_SCAN.md:generic-api-key:19
+a86f04bb45b8aa570154cc72b0dfb1933048191e:paper-experiments/exp3-latency/run-exp3b-latency-multisession.mjs:generic-api-key:31
+a86f04bb45b8aa570154cc72b0dfb1933048191e:paper-experiments/results/raw/exp3b_latency_multisession_raw.json:generic-api-key:13
+# 작업 트리 검사(--no-git) 형식: 위와 같은 항목
+paper-experiments/results/raw/exp3b_latency_multisession_raw.json:generic-api-key:13
+SECURITY_SCAN.md:generic-api-key:22
+paper-experiments/exp3-latency/run-exp3b-latency-multisession.mjs:generic-api-key:31

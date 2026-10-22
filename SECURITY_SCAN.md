@@ -103,3 +103,18 @@ Scope: files added/changed in this commit only (`paper-experiments/verification/
   strings, transaction sender (`from`) addresses, user addresses of the 3 extra mints.
 - Everything in `deployment_info.json` and the new CSV/JSON files is public on-chain data (contract addresses,
   tx hashes, blocks, gas).
+
+---
+
+## Addendum 2 — 2026-10-23 (gitleaks run)
+
+Supersedes the "gitleaks: not run" note in the 2026-10-22 addendum.
+
+- Tool: gitleaks v8.30.1, official Windows x64 release (SHA-256 verified against the release checksums file).
+- Command: `gitleaks detect --source . --log-opts="--all"` (full history) and `gitleaks detect --source . --no-git` (working tree).
+- First run: 4 findings in history, all `generic-api-key` (entropy 3.62), all the same string: the dataset label of the second
+  public Polygon wallet used as Exp.3's multi-session input (`wallet2_...`), matched because it appears as `key: "..."`.
+  Locations: `SECURITY_SCAN.md` (2 historical commits), `run-exp3b-latency-multisession.mjs` line 31,
+  `exp3b_latency_multisession_raw.json` line 13. A public wallet label, not a credential. No history rewrite.
+- Resolution: the 4 fingerprints (and the 3 working-tree equivalents) are listed in `.gitleaksignore` with an explanatory comment.
+- Re-run after adding `.gitleaksignore`: **0 findings** in full history and **0 findings** in the working tree.
