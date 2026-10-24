@@ -2,6 +2,9 @@
   "_comment": "Polygon PoS(137) 메인넷 온체인 조회 결과(읽기 전용, 아카이브 RPC). 재현: paper-experiments/verification/verify-onchain-claims.mjs. Safe 소유자 주소와 검증자 nodeId는 공개하지 않고 개수/threshold만 기록한다.",
   "queriedAtUtcDate": "2026-10-22",
   "queriedAtBlock": 95981521,
+  "updatedAfterExecuteBatchUtcDate": "2026-10-24",
+  "updatedAfterExecuteBatchBlock": 96067187,
+  "updateNote": "validatorRegistry와 issuance 섹션만 2026-10-24 executeBatch 이후 값으로 갱신(raw/onchain_verification_2026-10-24.json, 재현: verification/verify-post-executebatch.mjs). 나머지 섹션은 2026-10-22 조회 값 그대로(해당 항목은 이번 배치로 바뀌지 않음).",
   "chainId": 137,
   "sbtProxy": {
     "address": "0xb7e3B228308F97431de7d4d4b7690A35B23052Ba",
@@ -49,12 +52,13 @@
     "deploymentBlock": 89346317,
     "owner": "0x51caF45eB42eb648dee04f24271134E7046eA2a4",
     "ownerIsTimelock": true,
-    "threshold": 1,
+    "threshold": 2,
     "activeValidatorCount": 2,
-    "everRegisteredValidatorCount": 3,
-    "removedValidatorEvents": 1,
-    "thresholdUpdateEvents": 1,
-    "note": "threshold=1: 활성 검증자 1명의 서명만으로 발급이 통과된다. 활성 검증자 수는 2이지만 임계값은 올라간 적이 없다(ThresholdUpdated 이벤트는 배포 시 0→1 한 번뿐)."
+    "everRegisteredValidatorCount": 4,
+    "removedValidatorEvents": 2,
+    "thresholdUpdateEvents": 2,
+    "note": "2026-10-24 갱신: threshold 1→2(타임락 executeBatch, 블록 96,066,937). 활성 검증자 2명 모두 서명해야 발급이 통과된다. 한 명은 교체됨(addValidator+removeValidator, 같은 배치). 2026-10-22 조회 시점 값은 threshold 1, everRegistered 3, removed 1, thresholdUpdate 1이었다(ThresholdUpdated: 배포 시 0→1, 이번 배치에서 1→2).",
+    "previousSnapshot_2026-10-22": { "threshold": 1, "activeValidatorCount": 2, "everRegisteredValidatorCount": 3, "removedValidatorEvents": 1, "thresholdUpdateEvents": 1, "block": 95981521 }
   },
   "ruleSetApprovals": [
     {
@@ -79,7 +83,8 @@
   },
   "issuance": {
     "tokenMintedEvents": 14,
-    "revokedEvents": 10,
-    "currentlyActive": 4
+    "revokedEvents": 13,
+    "currentlyActive": 1,
+    "note": "2026-10-24 갱신(블록 96,067,187 기준): 테스트 발급 10건(2026-10-11 폐기) + ODA-BASIC 시스템 검증 발급 3건(2026-10-24 폐기, 사유 EXAM_REVOKED)이 폐기되어 유효 토큰은 운영 #1 한 건. 2026-10-22 시점은 revokedEvents 10, currentlyActive 4."
   }
 }

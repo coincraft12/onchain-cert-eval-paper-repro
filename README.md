@@ -150,7 +150,7 @@ because free Alchemy plans cap `getLogs` at 10 blocks).
 | Timelock `getMinDelay()` | 86,400 s (24 h). PROPOSER and CANCELLER: the Safe. EXECUTOR: **open** (`address(0)` holds the role, so anyone can execute a matured operation) |
 | Safe `0x2A04…0dF5` | threshold 2, 3 owners (owner addresses not published here) |
 | ERC-5192 (`supportsInterface(0xb45a3c0e)`) | `true` |
-| Validator registry | `0x07D7EB170964D555db1D270B2B7dDAc9A3C8fC67`, owned by the Timelock. **`threshold() = 1`** with 2 active validators: a single validator signature is enough to issue. The threshold has never been raised. |
+| Validator registry | `0x07D7EB170964D555db1D270B2B7dDAc9A3C8fC67`, owned by the Timelock. **`threshold() = 2`** with 2 active validators since 2026-10-24 (block 96,066,937): both validators must sign to issue. The threshold was 1 until then (set at deployment); one validator was replaced in the same Timelock batch. Snapshot of 2026-10-22: `threshold() = 1`. |
 | Approved rule sets | two `(missionId, ruleSetId)` pairs only (see `deployment_info.json`). **SC-DEV-PRO-M1 (`0xdb2378ff…3dc0`) has never been approved on-chain.** |
 
 SC-DEV-PRO-M1's `ruleSetId` is derived from the canonical body in `rulesets/SC-DEV-PRO-M1.json`
@@ -160,7 +160,14 @@ Revocation of the 10 Exp.2 test tokens (Timelock `scheduleBatch` → 24 h → `e
 `results/exp2_revocation_gas.csv` (gas, price, POL cost per transaction) and
 `results/exp2_revocation_token_state.csv` (all 10 tokens `revoked = true`, `ownerOf` reverts).
 `results/exp2_extra_test_issuances.json` lists the 3 further mints that make the cumulative total 14
-(1 production + 10 revoked tests + 3 unrevoked mints on the ODA-BASIC mission).
+(1 production + 10 revoked tests + 3 mints on the ODA-BASIC mission; those 3 were unrevoked on 2026-10-22).
+
+Operational change of 2026-10-24: one Timelock batch (`scheduleBatch` 2026-10-22 → 24 h → `executeBatch`
+2026-10-24) replaced one validator, raised the registry threshold 1 → 2 and revoked those 3 ODA-BASIC
+system-verification mints (reason `EXAM_REVOKED`). Receipts and post-state: `results/ops_threshold_and_revocation_2026-10.csv`,
+`results/raw/onchain_verification_2026-10-24.json`; script: `paper-experiments/verification/verify-post-executebatch.mjs`.
+Both transactions were submitted to the chain by a third-party relayer (gas not paid by the operator);
+addresses are not published. Result: 13 of 14 minted tokens revoked, 1 valid (the production token).
 
 Exp.1 chain-tip ages: `results/exp1c_tx_age.csv` / `exp1c_tx_age_summary.json` give each transaction's
 actual block timestamp and its age at the chain-tip observation time, next to the age that results from

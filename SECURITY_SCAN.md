@@ -118,3 +118,9 @@ Supersedes the "gitleaks: not run" note in the 2026-10-22 addendum.
   `exp3b_latency_multisession_raw.json` line 13. A public wallet label, not a credential. No history rewrite.
 - Resolution: the 4 fingerprints (and the 3 working-tree equivalents) are listed in `.gitleaksignore` with an explanatory comment.
 - Re-run after adding `.gitleaksignore`: **0 findings** in full history and **0 findings** in the working tree.
+
+## Addendum 3 — 2026-10-24 (pre-release scan for v1.0.1-paper)
+
+- Tool: gitleaks v8.30.1 (official Windows x64 release, SHA-256 verified against the release checksums file; the binary had to be downloaded again).
+- Working tree (`--no-git`) before the commit: **0 findings**. Full history (`--log-opts="--all"`, 5 commits) before the new commit: **0 findings** (the 4 documented false positives remain suppressed by `.gitleaksignore`).
+- New files in this release contain no addresses of validators, Safe owners or transaction relayers; they use only a public RPC endpoint without credentials.
