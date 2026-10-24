@@ -1,0 +1,77 @@
+{
+  "_comment": "SDK가 생성한 패리티 벡터 — SDK와 coincraft.io 백엔드 인라인 복사본이 같은 해시를 내야 한다. 변경 금지(변경 시 양쪽 동시 수정).",
+  "evaluationReport": {
+    "reportVersion": "evaluation-report/1",
+    "chainId": 137,
+    "userAddress": "0x2bfe227fdfa9e0c83169198ebbd076e1ab95db15",
+    "missionId": "0x2222222222222222222222222222222222222222222222222222222222222222",
+    "missionRef": "E2E-PATH-A",
+    "ruleSetId": "0x1111111111111111111111111111111111111111111111111111111111111111",
+    "referenceBlockNumber": "5000",
+    "referenceBlockHash": "0xabababababababababababababababababababababababababababababababab",
+    "windowStart": "1000",
+    "windowEnd": "4990",
+    "missionScope": {
+      "actor": "0x2bfe227fdfa9e0c83169198ebbd076e1ab95db15",
+      "targetContracts": null,
+      "includeFailed": true
+    },
+    "includedTxHashes": [
+      "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "0x0000000000000000000000000000000000000000000000000000000000000003"
+    ],
+    "txActionTypes": {
+      "0x0000000000000000000000000000000000000000000000000000000000000001": "constructor",
+      "0x0000000000000000000000000000000000000000000000000000000000000002": "constructor",
+      "0x0000000000000000000000000000000000000000000000000000000000000003": "0x00000000"
+    },
+    "sessions": [
+      {
+        "sessionId": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "sessionRoot": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "constructionMethod": "combined",
+        "startTime": 1720000000,
+        "endTime": 1720000120,
+        "actionCount": 3,
+        "valid": true,
+        "featureValues": {
+          "efficiency": 0.4,
+          "stability": 1,
+          "coherence": 0.30000000000000004,
+          "riskPattern": 1,
+          "excellence": 0.6
+        }
+      }
+    ],
+    "sessionRoot": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "score": 72,
+    "grade": 1,
+    "evaluatorCodeVersion": {
+      "sdk": "@coincraft/onchain-cert-sdk",
+      "version": "0.1.0",
+      "commit": "0123456789abcdef0123456789abcdef01234567",
+      "dirty": false
+    },
+    "createdAt": 1720003600
+  },
+  "evaluationReportHash": "0xff89dcdfc7bcae926a170da7b7613724cfb34ad0b0648a86112a69502e3e3a69",
+  "resultReportFields": {
+    "userAddress": "0x2bfe227fdfa9e0c83169198ebbd076e1ab95db15",
+    "missionId": "0x2222222222222222222222222222222222222222222222222222222222222222",
+    "chainId": 137,
+    "referenceBlockNumber": "5000",
+    "score": 72,
+    "grade": 1,
+    "ruleSetId": "0x1111111111111111111111111111111111111111111111111111111111111111",
+    "sessionRoot": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "nonce": "1",
+    "expiry": "1720999999",
+    "timestamp": "1720003600",
+    "applicantName": "Test User",
+    "courseId": "0x3333333333333333333333333333333333333333333333333333333333333333",
+    "issuerAddress": "0xe17f4698277cedaf0c0991eadb9614b87ba3f11d"
+  },
+  "reportHashV1": "0x580ef4da2293fad7446b36e90016680cc7d94f07f5864d44b7e7a568f248b92a",
+  "reportHashV2": "0x6b663d3a3418f56aef5f09c6677a9c37540adf37b1f68bb4b4f265c7ca80a7d5"
+}

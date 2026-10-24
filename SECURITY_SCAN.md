@@ -124,3 +124,10 @@ Supersedes the "gitleaks: not run" note in the 2026-10-22 addendum.
 - Tool: gitleaks v8.30.1 (official Windows x64 release, SHA-256 verified against the release checksums file; the binary had to be downloaded again).
 - Working tree (`--no-git`) before the commit: **0 findings**. Full history (`--log-opts="--all"`, 5 commits) before the new commit: **0 findings** (the 4 documented false positives remain suppressed by `.gitleaksignore`).
 - New files in this release contain no addresses of validators, Safe owners or transaction relayers; they use only a public RPC endpoint without credentials.
+
+## Addendum 4 — 2026-10-24 (pre-release scan for v1.1.0)
+
+- Tool: gitleaks v8.30.1 (official Windows x64 release, SHA-256 verified against the release checksums file).
+- Working tree (`--no-git`) with the new files (`sdk/src/report/`, `sdk/src/abis/`, `tools/`, `tests/`, `sdk/test/`): **0 findings**. Full history (`--log-opts="--all"`, 6 commits): **0 findings**.
+- Name/e-mail/phone greps over the new files: 0 matches. The only `@` strings are npm scope names. No RPC URLs or keys appear (the fork scenario script reads none; endpoints are command-line arguments).
+- New files contain no operator addresses beyond the public contract/Timelock/registry addresses already in the README. The fork test script generates throwaway keys at run time and stores none.

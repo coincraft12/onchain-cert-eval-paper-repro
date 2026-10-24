@@ -11,3 +11,5 @@ paper-experiments/.env
 
 *.log
 .DS_Store
+
+.e2e-eval-report/

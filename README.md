@@ -6,6 +6,7 @@
 This repository is a **reproduction package**, not the full production system. It contains:
 
 - The evaluation pipeline core used by the paper's experiments — `110 DomainAdapter → 120 Collection/normalize → 130 SessionConstructor → 140 FeatureExtractor → 150 Scorer → 160 session-root aggregation` (no issuance, burn, KMS signing, or validator-network code — those are operational concerns of the production system and out of scope here).
+- **(added in v1.1.0)** The `EvaluationReport` v1 schema and builder, `reportHash` v1/v2 computation, a read-only credential verification tool, and local-fork scenario tests — see [Credential verification](#credential-verification-added-in-v110-after-the-paper-submission). These were added after the paper-submission snapshot (`v1.0.1-paper`) and do not affect any experiment result in the paper.
 - The exact ruleSets used (`GENERIC-R1`, `SC-DEV-PRO-M1`).
 - The experiment scripts referenced in the paper:
   - **Exp.1** — independent-RPC-provider reproducibility (same input → same `sessionRoot`/score across independently operated nodes), its chain-tip variant, and the input-completeness check (the determinism condition behind the paper's "0 silent mismatches, 4 UNVERIFIABLE" result)
@@ -20,7 +21,7 @@ This repository is a **reproduction package**, not the full production system. I
 
 This is a curated subset of a larger private system. Deliberately excluded:
 
-- Issuance (`issue`), burn, KMS-signing, and validator-network SDK modules — operational code for the live production deployment.
+- Issuance (`issue`), burn, KMS-signing, and validator-network SDK modules, and the backend — operational code for the live production deployment. (The fork test script signs test issuances with throwaway keys inside the script itself.)
 - `.env` files, API keys, RPC URLs, AWS/KMS key IDs, custody-related code.
 - Any issuance record naming a real person (examinee data) — including function-label strings that embedded a real name in the source project's internal gas-measurement script; the Exp.2 data here was regenerated with an anonymized label (`issueOrUpdate_mainnet_production_1`) referring to the same, already-public transaction hash.
 - Operational documents (multisig SOPs, deployment runbooks, internal STATUS/progress notes) and any address other than the public contract/Safe signer addresses already visible on-chain.
@@ -29,7 +30,9 @@ This is a curated subset of a larger private system. Deliberately excluded:
 ## Repository layout
 
 ```
-sdk/                        evaluation pipeline core (TypeScript, builds to sdk/dist)
+sdk/                        evaluation pipeline core (TypeScript, builds to sdk/dist); report/ holds EvaluationReport + reportHash v1/v2
+tools/                      verify-credential.mjs (read-only verifier), e2e-evaluation-report-fork.mjs (local-fork scenarios A–F)
+tests/                      node:test unit tests for the report code (no network)
 rulesets/                   GENERIC-R1.json, SC-DEV-PRO-M1-ruleset.json (+ canonical body/ruleSetId in SC-DEV-PRO-M1.json), and the scripts that derive both ruleSetIds
 contracts/                  CompetencyAttestationSBTV4.sol (reference only, matches verified on-chain source)
 paper-experiments/
@@ -172,6 +175,103 @@ addresses are not published. Result: 13 of 14 minted tokens revoked, 1 valid (th
 Exp.1 chain-tip ages: `results/exp1c_tx_age.csv` / `exp1c_tx_age_summary.json` give each transaction's
 actual block timestamp and its age at the chain-tip observation time, next to the age that results from
 assuming a 2.0 s block time (`age_days_if_2s_blocks`).
+
+## Credential verification (added in v1.1.0, after the paper submission)
+
+> This section describes functionality added **after** the paper-submission snapshot (`v1.0.1-paper`). It does not
+> affect any experiment result in the paper; Exp.1–4 are unchanged.
+
+A third party can check, read-only, what an on-chain SBT's `reportHash` points to, and whether the off-chain
+evaluation report behind it reproduces.
+
+### What is committed on-chain
+
+The contract treats `reportHash` as an opaque `bytes32`.
+
+| Scheme | Definition | Notes |
+|---|---|---|
+| **v1** | `keccak256(abi.encode(12 fields))` — userAddress, missionId, score, grade, ruleSetId, sessionRoot, nonce, expiry, timestamp, applicantName, courseId, issuerAddress | Used by Path B and by earlier issuances. A v1 hash commits to no input list, so the evaluation cannot be re-derived from it. |
+| **v2** | `keccak256(abi.encode(the same 12 fields, bytes32 evaluationReportHash))` | `evaluationReportHash = keccak256(utf8(canonicalSerialize(EvaluationReport)))`. |
+
+`EvaluationReport` (`sdk/src/report/evaluation.ts`, version `evaluation-report/1`) records the reference block
+(number and hash), the evaluation window (`windowStart`/`windowEnd`), the mission scope (actor, target contracts,
+whether failed transactions count), the ordered list of included transaction hashes with the action type used for
+each (`txActionTypes`, needed because an action type may come from an explorer's function name and not be derivable
+from calldata alone), the per-session roots and feature values, the score and grade, and the evaluator code version
+(commit; a dirty tree is refused). `missionRef` is the human-readable mission label used by the ruleSet. It
+deliberately contains **no personal data**: no applicant name, no name hash, no e-mail, no internal IDs.
+
+### Verify a token
+
+```bash
+cd sdk && npm install && npm run build && cd ..
+node tools/verify-credential.mjs <tokenId> \
+  --rpc <polygon-archive-rpc> [--rpc <second-provider-rpc> ...] \
+  --report-file <envelope.json>          # or --mirror-url <base> / --report-url <base>
+  --history rpc-scan                     # independent full-history source (see Limits)
+```
+
+The ruleSet body is looked up by `ruleSetId` in `rulesets/` (use `--ruleset-dir` for others). `VERIFY_RPCS`
+(comma-separated) can replace `--rpc`. RPC URLs are never printed. Exit code: `0` MATCH, `2` MISMATCH,
+`3` UNVERIFIABLE, `1` execution error. Add `--json` for machine-readable output.
+
+### Verdicts
+
+Precedence is MISMATCH > UNVERIFIABLE > MATCH. Every verdict is printed with its reasons.
+
+| Verdict | Reason | Meaning (examples) |
+|---|---|---|
+| **MISMATCH** | value mismatch (값 불일치) | a recomputed value differs from the committed one: `evaluationReportHash`, v2 `reportHash` vs on-chain, block hash, a transaction outside the window or sent by someone else, recomputed sessions/features/score differ |
+| **MISMATCH** | omission detected (누락 탐지) | a transaction that belongs to the mission scope appears in the independent history for `[windowStart, reference block]` but not in `includedTxHashes`; the missing hashes are printed |
+| **UNVERIFIABLE** | lookup failed (조회 실패) | something needed could not be fetched or is not supported: a listed transaction the RPCs do not return, RPCs disagreeing, no stored report, rule set body not found, v1 hash (no report exists), or no independent history source |
+| **MATCH** | — | all checks passed **and** an independent source covered the whole window |
+
+Input *completeness* ("no transaction was left out") cannot be proven by a hash. It is judged only when an
+independent history source returns the full history for the window; otherwise the result is UNVERIFIABLE, never
+MATCH.
+
+### Limits
+
+- **RPC block scan: 20,000 blocks.** `--history rpc-scan` scans the evaluation window block by block and stops at a
+  default cap of 20,000 blocks (`--history-scan-limit`). A longer window needs an indexer API.
+- **Etherscan-compatible history (`--history etherscan`) is untested.** It was implemented but never run against a
+  real endpoint because no API key was available when this was written; treat it as unverified.
+- Reproduction supports the **normal-transaction pipeline** only (internal and token-transfer derived actions make
+  the result UNVERIFIABLE).
+- A v1 credential (including the first production issuance) is always UNVERIFIABLE (`legacy-v1`): the data needed
+  to re-derive it was never committed.
+- The default `--report-url` points to the operator's public report API. Until that API is enabled, pass
+  `--report-file` or a `--mirror-url`.
+- The applicant name is stored in plaintext on-chain by the deployed contract (v4); this is a property of the
+  contract, not of the reports.
+
+### Tests
+
+```bash
+cd sdk && npm run build && cd ..
+node --test tests/evaluation-report.test.mjs      # hashing, determinism, validation, parity vector (no network)
+```
+
+Local-fork scenarios (nothing is sent to mainnet; needs [Foundry](https://getfoundry.sh) `anvil` and a Polygon
+archive RPC to fork from; the fork block must be on or after 2026-10-24, when the validator threshold became 2):
+
+```bash
+anvil --fork-url <polygon-archive-rpc> --port 8548 --chain-id 137 --silent
+node tools/e2e-evaluation-report-fork.mjs
+```
+
+| | Scenario | Expected |
+|---|---|---|
+| A | normal v2 issuance on the fork | MATCH |
+| B | evaluator drops an unfavorable (failed) transaction from the list | MISMATCH (omission detected, missing hash printed) |
+| C | stored JSON altered (one input removed) | MISMATCH (value mismatch) |
+| D | one listed transaction withheld by the RPC | UNVERIFIABLE (lookup failed) |
+| E | no independent history source given | UNVERIFIABLE, no MISMATCH |
+| F | v1 (12-field) issuance | UNVERIFIABLE (`legacy-v1`) |
+
+The scenarios pass `--issue-tx` so the verifier does not scan logs against the forked upstream node (a log scan over a forked range is slow or rate-limited on free RPC plans). The script signs fork-only test issuances with throwaway keys generated at run time and impersonates the Timelock
+only on the local fork. The parity vector `sdk/test/fixtures/evaluation-report-vector.json` is the same vector the
+production backend's tests are locked to.
 
 ## API keys you need (all free tier)
 

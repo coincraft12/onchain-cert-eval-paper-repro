@@ -89,3 +89,29 @@ export { classifyGrade } from "./scorer/grade.js";
 
 // 160 ReportGenerator — 다세션 집계만 (EIP-712 ResultReport 빌더는 범위 밖)
 export { aggregateSessionRoots } from "./report/aggregateSessionRoots.js";
+
+// EvaluationReport v1 + reportHash v1/v2 (docs: README "Credential verification")
+export type { Address, ReportHashFields, ReportHashFieldsV2 } from "./report/reportHash.js";
+export { GRADE_INDEX, computeReportHash, computeReportHashV2 } from "./report/reportHash.js";
+export {
+  EVALUATION_REPORT_VERSION,
+  HASH_SCHEME_V2,
+  EvaluationReportError,
+  actionToTxHash,
+  extractIncludedTxHashes,
+  extractTxActionTypes,
+  buildEvaluationReport,
+  computeEvaluationReportHash,
+  toEnvelope,
+} from "./report/evaluation.js";
+export type {
+  EvaluatorCodeVersion,
+  MissionScope,
+  EvaluationSessionEntry,
+  EvaluationReport,
+  EvaluationReportEnvelope,
+  BuildEvaluationReportInput,
+} from "./report/evaluation.js";
+
+// 읽기 전용 검증에 필요한 배포 컨트랙트 ABI (검증된 공개 ABI)
+export { competencyAttestationSBTV4Abi } from "./abis/CompetencyAttestationSBTV4.js";

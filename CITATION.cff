@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this reproduction package, please cite it as below."
 title: "onchain-cert-eval-paper-repro: Reproduction package for on-chain behavior-based competency certification"
-version: v1.0.1-paper
+version: v1.1.0
 type: software
 authors:
   - family-names: Kim

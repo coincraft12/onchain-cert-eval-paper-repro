@@ -1,8 +1,8 @@
 {
   "title": "onchain-cert-eval-paper-repro: Reproduction package for on-chain behavior-based competency certification",
   "upload_type": "software",
-  "version": "v1.0.1-paper",
-  "description": "Reproduction package for the paper \"A Third-Party Reproducible Framework for On-Chain Behavior-Based Competency Certification\" (제3자 재현 검증이 가능한 온체인 행위 기반 역량 인증 프레임워크). Contains the evaluation pipeline core, the rule sets used in the experiments, the Experiment 1-4 scripts, frozen real transaction-hash datasets, result CSVs, and read-only on-chain verification evidence for the deployment facts quoted in the paper.",
+  "version": "v1.1.0",
+  "description": "Reproduction package for the paper \"A Third-Party Reproducible Framework for On-Chain Behavior-Based Competency Certification\" (제3자 재현 검증이 가능한 온체인 행위 기반 역량 인증 프레임워크). Contains the evaluation pipeline core, the rule sets used in the experiments, the Experiment 1-4 scripts, frozen real transaction-hash datasets, result CSVs, and read-only on-chain verification evidence for the deployment facts quoted in the paper. Version v1.1.0 adds, after the paper submission snapshot (v1.0.1-paper), the EvaluationReport v1 schema and builder, reportHash v1/v2 computation, a read-only credential verification tool and local-fork scenario tests; it does not change any experiment result in the paper.",
   "creators": [
     {
       "name": "Kim, Eungjun",
