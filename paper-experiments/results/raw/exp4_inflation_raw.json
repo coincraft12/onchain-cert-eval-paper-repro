@@ -1,0 +1,503 @@
+{
+  "measuredAtKst": "2026. 10. 10. 오후 3:14:02",
+  "forkBlockNumber": null,
+  "chainId": 137,
+  "ruleSetId": "0xdf615dbb5d43c22197ad15db3770b4544fd3dcc9858ce302813b2c332f0f6aeb",
+  "results": {
+    "a_normal": [
+      {
+        "wallet": "0x0000000000000000000000000000000000001000",
+        "sessionId": "0xc317d00c1a6492d885c42e5b2a7652361e05990adeaba7e7a3da2545ba690119",
+        "actionCount": 3,
+        "features": {
+          "efficiency": 1,
+          "stability": 1,
+          "coherence": 0.6363636363636364,
+          "riskPattern": 1,
+          "excellence": 1
+        },
+        "score": 93,
+        "grade": "Professional",
+        "sessionCount": 1
+      },
+      {
+        "wallet": "0x0000000000000000000000000000000000001002",
+        "sessionId": "0xa81f32570e43ad3da579f8c66036d1ed7a621bbe33dec667e59b11a1e269e9b5",
+        "actionCount": 3,
+        "features": {
+          "efficiency": 1,
+          "stability": 1,
+          "coherence": 0.6363636363636364,
+          "riskPattern": 1,
+          "excellence": 1
+        },
+        "score": 93,
+        "grade": "Professional",
+        "sessionCount": 1
+      },
+      {
+        "wallet": "0x0000000000000000000000000000000000001004",
+        "sessionId": "0xde0e21f833b314ea348f3d4a1f5f72c07c4732cb6c61683eca30914eb45a8218",
+        "actionCount": 3,
+        "features": {
+          "efficiency": 1,
+          "stability": 1,
+          "coherence": 0.6363636363636364,
+          "riskPattern": 1,
+          "excellence": 1
+        },
+        "score": 93,
+        "grade": "Professional",
+        "sessionCount": 1
+      },
+      {
+        "wallet": "0x0000000000000000000000000000000000001006",
+        "sessionId": "0xfae4277ae0add5ac5482c92e9aa10035fbac264a91633d1640116f3f7cc68159",
+        "actionCount": 3,
+        "features": {
+          "efficiency": 1,
+          "stability": 1,
+          "coherence": 0.6363636363636364,
+          "riskPattern": 1,
+          "excellence": 1
+        },
+        "score": 93,
+        "grade": "Professional",
+        "sessionCount": 1
+      },
+      {
+        "wallet": "0x0000000000000000000000000000000000001008",
+        "sessionId": "0xd9c238f9b474a390d7c7165a1a89694b90548aaacb0969fd1754c674d5a5e96a",
+        "actionCount": 3,
+        "features": {
+          "efficiency": 1,
+          "stability": 1,
+          "coherence": 0.6363636363636364,
+          "riskPattern": 1,
+          "excellence": 1
+        },
+        "score": 93,
+        "grade": "Professional",
+        "sessionCount": 1
+      }
+    ],
+    "b_duplicate_input": [
+      {
+        "wallet": "0x000000000000000000000000000000000000100a",
+        "sessionId": "0x97350307341726f025e2346598d31d59891d9e17873bac3c912c3411b550561b",
+        "actionCount": 6,
+        "features": {
+          "efficiency": 0.5,
+          "stability": 1,
+          "coherence": 0.4336353425465938,
+          "riskPattern": 1,
+          "excellence": 0.75
+        },
+        "score": 74,
+        "grade": "Basic",
+        "sessionCount": 1
+      },
+      {
+        "wallet": "0x000000000000000000000000000000000000100c",
+        "sessionId": "0xcb9ae7fed9805cc8e880ced3f55ca8bc04f810f9d9ad91423b0354b926a6f863",
+        "actionCount": 6,
+        "features": {
+          "efficiency": 0.5,
+          "stability": 1,
+          "coherence": 0.4336353425465938,
+          "riskPattern": 1,
+          "excellence": 0.75
+        },
+        "score": 74,
+        "grade": "Basic",
+        "sessionCount": 1
+      },
+      {
+        "wallet": "0x000000000000000000000000000000000000100e",
+        "sessionId": "0xa69e357d7427de242654bab8ffa42649c920dc6671e028e4eaf30054b7397bed",
+        "actionCount": 6,
+        "features": {
+          "efficiency": 0.5,
+          "stability": 1,
+          "coherence": 0.4336353425465938,
+          "riskPattern": 1,
+          "excellence": 0.75
+        },
+        "score": 74,
+        "grade": "Basic",
+        "sessionCount": 1
+      },
+      {
+        "wallet": "0x0000000000000000000000000000000000001010",
+        "sessionId": "0xfff20c20b087a25963775dd371aaaf1b1a066707cb73a5230b933c5648bd8fad",
+        "actionCount": 6,
+        "features": {
+          "efficiency": 0.5,
+          "stability": 1,
+          "coherence": 0.4336353425465938,
+          "riskPattern": 1,
+          "excellence": 0.75
+        },
+        "score": 74,
+        "grade": "Basic",
+        "sessionCount": 1
+      },
+      {
+        "wallet": "0x0000000000000000000000000000000000001012",
+        "sessionId": "0x232b90d668a73fbe79b91634f1ed432239583b2abe7a434e6575ccd73baba7d1",
+        "actionCount": 6,
+        "features": {
+          "efficiency": 0.5,
+          "stability": 1,
+          "coherence": 0.4336353425465938,
+          "riskPattern": 1,
+          "excellence": 0.75
+        },
+        "score": 74,
+        "grade": "Basic",
+        "sessionCount": 1
+      }
+    ],
+    "c_rapid_failed_retry": [
+      {
+        "wallet": "0x0000000000000000000000000000000000001014",
+        "sessionId": "0x020b32124c87b72b46d61f4fe16cbba1d88405d8ffde863608595ced3ef6e6d3",
+        "actionCount": 7,
+        "features": {
+          "efficiency": 0,
+          "stability": 0.4285714285714286,
+          "coherence": 0.30750214971203094,
+          "riskPattern": 0.5,
+          "excellence": 0.42857142857142855
+        },
+        "score": 33,
+        "grade": "Below",
+        "sessionCount": 1
+      },
+      {
+        "wallet": "0x0000000000000000000000000000000000001016",
+        "sessionId": "0x73e561529f5a6828173bda3edce7bc6774fc51fcbede7cd9cbd12e8832632267",
+        "actionCount": 7,
+        "features": {
+          "efficiency": 0,
+          "stability": 0.4285714285714286,
+          "coherence": 0.30750214971203094,
+          "riskPattern": 0.5,
+          "excellence": 0.42857142857142855
+        },
+        "score": 33,
+        "grade": "Below",
+        "sessionCount": 1
+      },
+      {
+        "wallet": "0x0000000000000000000000000000000000001018",
+        "sessionId": "0xb708ab71fcb629bb43f9017e499ec07043ea99e9b32373bd189fcfac44370bc7",
+        "actionCount": 7,
+        "features": {
+          "efficiency": 0,
+          "stability": 0.4285714285714286,
+          "coherence": 0.30750214971203094,
+          "riskPattern": 0.5,
+          "excellence": 0.42857142857142855
+        },
+        "score": 33,
+        "grade": "Below",
+        "sessionCount": 1
+      },
+      {
+        "wallet": "0x000000000000000000000000000000000000101a",
+        "sessionId": "0xe1b6cf099139b963e47ff8b50bf22962028165bf37aa93ec0568ea3a65b00fe8",
+        "actionCount": 7,
+        "features": {
+          "efficiency": 0,
+          "stability": 0.4285714285714286,
+          "coherence": 0.30750214971203094,
+          "riskPattern": 0.5,
+          "excellence": 0.42857142857142855
+        },
+        "score": 33,
+        "grade": "Below",
+        "sessionCount": 1
+      },
+      {
+        "wallet": "0x000000000000000000000000000000000000101c",
+        "sessionId": "0x8be6a692eebf6fd95b9a2b91c3299cf4c17539434acf4f80665de0b8c14a3089",
+        "actionCount": 7,
+        "features": {
+          "efficiency": 0,
+          "stability": 0.4285714285714286,
+          "coherence": 0.30750214971203094,
+          "riskPattern": 0.5,
+          "excellence": 0.42857142857142855
+        },
+        "score": 33,
+        "grade": "Below",
+        "sessionCount": 1
+      }
+    ]
+  },
+  "rawTxLog": {
+    "a_0x00000000": [
+      {
+        "hash": "0x4e5d75f2bdc0402d1223be75d4e0390145ea707e42a791e0f8f4925e71fb0b42",
+        "blockNumber": "95271490",
+        "timeStamp": "1791613744",
+        "from": "0x0000000000000000000000000000000000001008",
+        "to": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "value": "0",
+        "gas": "100000",
+        "gasPrice": "10987094825",
+        "gasUsed": "46085",
+        "input": "0x095ea7b3000000000000000000000000a5e0829caced8ffdd4de3c43696c57f7d7a678ff0000000000000000000000000000000000000000000000004563918244f40000",
+        "isError": "0",
+        "txreceipt_status": "1",
+        "nonce": "1",
+        "functionName": "approve(address,uint256)"
+      },
+      {
+        "hash": "0x9606937c07da3a5d79b20fd3bdece309af17f6a9f0e74714b1f15d45455327aa",
+        "blockNumber": "95271491",
+        "timeStamp": "1791613834",
+        "from": "0x0000000000000000000000000000000000001008",
+        "to": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "value": "0",
+        "gas": "100000",
+        "gasPrice": "9739427121",
+        "gasUsed": "51411",
+        "input": "0xa9059cbb0000000000000000000000000000000000000000000000000000000000001009000000000000000000000000000000000000000000000000016345785d8a0000",
+        "isError": "0",
+        "txreceipt_status": "1",
+        "nonce": "2",
+        "functionName": "transfer(address,uint256)"
+      },
+      {
+        "hash": "0x684592e0c85719670c6fbd4de6375f67666114173cf113a90ba795cb697c736f",
+        "blockNumber": "95271492",
+        "timeStamp": "1791613944",
+        "from": "0x0000000000000000000000000000000000001008",
+        "to": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+        "value": "0",
+        "gas": "5000000",
+        "gasPrice": "8647700767",
+        "gasUsed": "131326",
+        "input": "0x38ed17390000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000010080000000000000000000000000000000000000000000000000000000070dbd88000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000d500b1d8e8ef31e21c99d1db9a6444d3adf12700000000000000000000000002791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "isError": "0",
+        "txreceipt_status": "1",
+        "nonce": "3",
+        "functionName": "swapExactTokensForTokens(uint256,uint256,address[],address,uint256)"
+      }
+    ],
+    "b_0x00000000": [
+      {
+        "hash": "0x3095308dd9105c5ea243ae238de730db07f73cf57c36874d916d92c70ca815e3",
+        "blockNumber": "95271522",
+        "timeStamp": "1791617124",
+        "from": "0x0000000000000000000000000000000000001012",
+        "to": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "value": "0",
+        "gas": "100000",
+        "gasPrice": "1139727815",
+        "gasUsed": "46085",
+        "input": "0x095ea7b3000000000000000000000000a5e0829caced8ffdd4de3c43696c57f7d7a678ff0000000000000000000000000000000000000000000000004563918244f40000",
+        "isError": "0",
+        "txreceipt_status": "1",
+        "nonce": "1",
+        "functionName": "approve(address,uint256)"
+      },
+      {
+        "hash": "0xb1516fcf10ca1555f84f1c063a4845f91896c58bb05bf8bce1cc07d290f60fdd",
+        "blockNumber": "95271523",
+        "timeStamp": "1791617214",
+        "from": "0x0000000000000000000000000000000000001012",
+        "to": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "value": "0",
+        "gas": "100000",
+        "gasPrice": "1122271900",
+        "gasUsed": "51411",
+        "input": "0xa9059cbb0000000000000000000000000000000000000000000000000000000000001013000000000000000000000000000000000000000000000000016345785d8a0000",
+        "isError": "0",
+        "txreceipt_status": "1",
+        "nonce": "2",
+        "functionName": "transfer(address,uint256)"
+      },
+      {
+        "hash": "0xc9d9f0729bec1acdc66b9f1026fb5e761cc7cbbe55d41ca2ee1c7acbe62738d2",
+        "blockNumber": "95271524",
+        "timeStamp": "1791617324",
+        "from": "0x0000000000000000000000000000000000001012",
+        "to": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+        "value": "0",
+        "gas": "5000000",
+        "gasPrice": "1106997735",
+        "gasUsed": "131326",
+        "input": "0x38ed17390000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000010120000000000000000000000000000000000000000000000000000000070dbd88000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000d500b1d8e8ef31e21c99d1db9a6444d3adf12700000000000000000000000002791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "isError": "0",
+        "txreceipt_status": "1",
+        "nonce": "3",
+        "functionName": "swapExactTokensForTokens(uint256,uint256,address[],address,uint256)"
+      },
+      {
+        "hash": "0xf4f0040db4e5ec4f2d569505dba67437158fb5ccc6c0afaa5ef9c9c8d3877a3d",
+        "blockNumber": "95271525",
+        "timeStamp": "1791617644",
+        "from": "0x0000000000000000000000000000000000001012",
+        "to": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "value": "0",
+        "gas": "100000",
+        "gasPrice": "1093644974",
+        "gasUsed": "28985",
+        "input": "0x095ea7b3000000000000000000000000a5e0829caced8ffdd4de3c43696c57f7d7a678ff0000000000000000000000000000000000000000000000004563918244f40000",
+        "isError": "0",
+        "txreceipt_status": "1",
+        "nonce": "4",
+        "functionName": "approve(address,uint256)"
+      },
+      {
+        "hash": "0x4f73cfc907cee5fa36ce5638686e177368464134480ee7cf598bc3d8fc7c269b",
+        "blockNumber": "95271526",
+        "timeStamp": "1791617734",
+        "from": "0x0000000000000000000000000000000000001012",
+        "to": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "value": "0",
+        "gas": "100000",
+        "gasPrice": "1081943594",
+        "gasUsed": "34311",
+        "input": "0xa9059cbb0000000000000000000000000000000000000000000000000000000000001013000000000000000000000000000000000000000000000000016345785d8a0000",
+        "isError": "0",
+        "txreceipt_status": "1",
+        "nonce": "5",
+        "functionName": "transfer(address,uint256)"
+      },
+      {
+        "hash": "0xd7f6da5c9ac7f0f2b729ecc15a59381bff8491b1da5b929e8d160c337507755a",
+        "blockNumber": "95271527",
+        "timeStamp": "1791617844",
+        "from": "0x0000000000000000000000000000000000001012",
+        "to": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+        "value": "0",
+        "gas": "5000000",
+        "gasPrice": "1071705038",
+        "gasUsed": "114226",
+        "input": "0x38ed17390000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000010120000000000000000000000000000000000000000000000000000000070dbd88000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000d500b1d8e8ef31e21c99d1db9a6444d3adf12700000000000000000000000002791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "isError": "0",
+        "txreceipt_status": "1",
+        "nonce": "6",
+        "functionName": "swapExactTokensForTokens(uint256,uint256,address[],address,uint256)"
+      }
+    ],
+    "c_0x00000000": [
+      {
+        "hash": "0x5554b08492c259f3774baea993ef542d5966f5ca405b5b2ae5dd2f7c7ce3ce32",
+        "blockNumber": "95271561",
+        "timeStamp": "1791620260",
+        "from": "0x000000000000000000000000000000000000101c",
+        "to": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "value": "0",
+        "gas": "100000",
+        "gasPrice": "1000767534",
+        "gasUsed": "46085",
+        "input": "0x095ea7b3000000000000000000000000a5e0829caced8ffdd4de3c43696c57f7d7a678ff0000000000000000000000000000000000000000000000004563918244f40000",
+        "isError": "0",
+        "txreceipt_status": "1",
+        "nonce": "1",
+        "functionName": "approve(address,uint256)"
+      },
+      {
+        "hash": "0x6903614aa9178945191b7ba61a8ab29fe2961cfc3e22b5938c7ac52fce71c7be",
+        "blockNumber": "95271562",
+        "timeStamp": "1791620350",
+        "from": "0x000000000000000000000000000000000000101c",
+        "to": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "value": "0",
+        "gas": "100000",
+        "gasPrice": "1000671648",
+        "gasUsed": "51411",
+        "input": "0xa9059cbb000000000000000000000000000000000000000000000000000000000000101d000000000000000000000000000000000000000000000000016345785d8a0000",
+        "isError": "0",
+        "txreceipt_status": "1",
+        "nonce": "2",
+        "functionName": "transfer(address,uint256)"
+      },
+      {
+        "hash": "0xfe1afc375211b1f842e5bf8015c2467ad2cbd67ccdfaa3d1bd3e2d45a26afd7b",
+        "blockNumber": "95271563",
+        "timeStamp": "1791620460",
+        "from": "0x000000000000000000000000000000000000101c",
+        "to": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+        "value": "0",
+        "gas": "5000000",
+        "gasPrice": "1000587746",
+        "gasUsed": "131326",
+        "input": "0x38ed17390000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000101c0000000000000000000000000000000000000000000000000000000070dbd88000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000d500b1d8e8ef31e21c99d1db9a6444d3adf12700000000000000000000000002791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "isError": "0",
+        "txreceipt_status": "1",
+        "nonce": "3",
+        "functionName": "swapExactTokensForTokens(uint256,uint256,address[],address,uint256)"
+      },
+      {
+        "hash": "0x9af3dd7596d10c788450caba46e52e1deacb19c7b6df4585f03894b1f1f43139",
+        "blockNumber": "95271564",
+        "timeStamp": "1791620780",
+        "from": "0x000000000000000000000000000000000000101c",
+        "to": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "value": "0",
+        "gas": "100000",
+        "gasPrice": "1000514399",
+        "gasUsed": "24073",
+        "input": "0xa9059cbb000000000000000000000000000000000000000000000000000000000000101d00000000000000000000000000000000000000000000003635c9adc5dea00000",
+        "isError": "1",
+        "txreceipt_status": "0",
+        "nonce": "4",
+        "functionName": "transfer(address,uint256)"
+      },
+      {
+        "hash": "0x376de1868797ad55be2aeac70a625c3f83fb7d71f77cd18b7c16059cc6d215b7",
+        "blockNumber": "95271565",
+        "timeStamp": "1791620783",
+        "from": "0x000000000000000000000000000000000000101c",
+        "to": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "value": "0",
+        "gas": "100000",
+        "gasPrice": "1000450119",
+        "gasUsed": "24073",
+        "input": "0xa9059cbb000000000000000000000000000000000000000000000000000000000000101d00000000000000000000000000000000000000000000003635c9adc5dea00000",
+        "isError": "1",
+        "txreceipt_status": "0",
+        "nonce": "5",
+        "functionName": "transfer(address,uint256)"
+      },
+      {
+        "hash": "0xbb8ac8c4f833a103c2a518206876800a5c591078d066e368ee4bc464f3778f80",
+        "blockNumber": "95271566",
+        "timeStamp": "1791620786",
+        "from": "0x000000000000000000000000000000000000101c",
+        "to": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "value": "0",
+        "gas": "100000",
+        "gasPrice": "1000393872",
+        "gasUsed": "24073",
+        "input": "0xa9059cbb000000000000000000000000000000000000000000000000000000000000101d00000000000000000000000000000000000000000000003635c9adc5dea00000",
+        "isError": "1",
+        "txreceipt_status": "0",
+        "nonce": "6",
+        "functionName": "transfer(address,uint256)"
+      },
+      {
+        "hash": "0x96e546ed48f1a5fe6be3ce9f0793ce1edfb72e380bb030de6fb8527fe30c6a50",
+        "blockNumber": "95271567",
+        "timeStamp": "1791620789",
+        "from": "0x000000000000000000000000000000000000101c",
+        "to": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "value": "0",
+        "gas": "100000",
+        "gasPrice": "1000344653",
+        "gasUsed": "24073",
+        "input": "0xa9059cbb000000000000000000000000000000000000000000000000000000000000101d00000000000000000000000000000000000000000000003635c9adc5dea00000",
+        "isError": "1",
+        "txreceipt_status": "0",
+        "nonce": "7",
+        "functionName": "transfer(address,uint256)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_comment": "GENERIC-R1 — 논문 실험 1/3/4 전용 범용 ruleSet. 실제 SBT 발급에 사용되지 않음(issuerSet=0x0 placeholder). SC-DEV-PRO-M1의 미션 특화 stateMachine/evidenceMapping을 생략해 도메인 무관 5특성 base 알고리즘만으로 채점.",
+  "ruleSetId": "0xdf615dbb5d43c22197ad15db3770b4544fd3dcc9858ce302813b2c332f0f6aeb",
+  "ruleSetBody": {
+    "version": "1.0.0",
+    "missionId": "GENERIC-R1",
+    "trackId": "paper-experiment-reproducibility",
+    "chainScope": [
+      137
+    ],
+    "validFrom": 1735689600,
+    "gradeThresholds": {
+      "basic": 50,
+      "associate": 75,
+      "professional": 90
+    },
+    "featureWeights": {
+      "efficiency": 0.2,
+      "stability": 0.2,
+      "coherence": 0.2,
+      "riskPattern": 0.2,
+      "excellence": 0.2
+    },
+    "sessionBoundaryRule": {
+      "timeoutSeconds": 1800
+    },
+    "issuerSet": [
+      "0x0000000000000000000000000000000000000000"
+    ]
+  }
+}

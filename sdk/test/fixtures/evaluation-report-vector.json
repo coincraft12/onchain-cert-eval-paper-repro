@@ -1,0 +1,77 @@
+{
+  "_comment": "Parity vector produced by the SDK; the SDK and the backend inline copy must compute the same hashes. Do not change (change both sides together).",
+  "evaluationReport": {
+    "reportVersion": "evaluation-report/1",
+    "chainId": 137,
+    "userAddress": "0x1111111111111111111111111111111111111111",
+    "missionId": "0x2222222222222222222222222222222222222222222222222222222222222222",
+    "missionRef": "E2E-PATH-A",
+    "ruleSetId": "0x1111111111111111111111111111111111111111111111111111111111111111",
+    "referenceBlockNumber": "5000",
+    "referenceBlockHash": "0xabababababababababababababababababababababababababababababababab",
+    "windowStart": "1000",
+    "windowEnd": "4990",
+    "missionScope": {
+      "actor": "0x1111111111111111111111111111111111111111",
+      "targetContracts": null,
+      "includeFailed": true
+    },
+    "includedTxHashes": [
+      "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "0x0000000000000000000000000000000000000000000000000000000000000003"
+    ],
+    "txActionTypes": {
+      "0x0000000000000000000000000000000000000000000000000000000000000001": "constructor",
+      "0x0000000000000000000000000000000000000000000000000000000000000002": "constructor",
+      "0x0000000000000000000000000000000000000000000000000000000000000003": "0x00000000"
+    },
+    "sessions": [
+      {
+        "sessionId": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "sessionRoot": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "constructionMethod": "combined",
+        "startTime": 1720000000,
+        "endTime": 1720000120,
+        "actionCount": 3,
+        "valid": true,
+        "featureValues": {
+          "efficiency": 0.4,
+          "stability": 1,
+          "coherence": 0.30000000000000004,
+          "riskPattern": 1,
+          "excellence": 0.6
+        }
+      }
+    ],
+    "sessionRoot": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "score": 72,
+    "grade": 1,
+    "evaluatorCodeVersion": {
+      "sdk": "onchain-cert-sdk",
+      "version": "0.1.0",
+      "commit": "0123456789abcdef0123456789abcdef01234567",
+      "dirty": false
+    },
+    "createdAt": 1720003600
+  },
+  "evaluationReportHash": "0x12458f674210d3cb08d55463e6881172c4442e538e63991f79b73a5f8a9143c4",
+  "resultReportFields": {
+    "userAddress": "0x1111111111111111111111111111111111111111",
+    "missionId": "0x2222222222222222222222222222222222222222222222222222222222222222",
+    "chainId": 137,
+    "referenceBlockNumber": "5000",
+    "score": 72,
+    "grade": 1,
+    "ruleSetId": "0x1111111111111111111111111111111111111111111111111111111111111111",
+    "sessionRoot": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "nonce": "1",
+    "expiry": "1720999999",
+    "timestamp": "1720003600",
+    "applicantName": "Test User",
+    "courseId": "0x3333333333333333333333333333333333333333333333333333333333333333",
+    "issuerAddress": "0x2222222222222222222222222222222222222222"
+  },
+  "reportHashV1": "0x923c4d63a3abc3bb5e4731e6220f7f806a9c43b67fcf005226d1c538062a8b4c",
+  "reportHashV2": "0xcbe33a44bbca537deae7ba42b68db9f3fe00e69c582a4607053d52cdc09b5732"
+}

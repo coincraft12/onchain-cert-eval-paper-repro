@@ -1,0 +1,244 @@
+{
+  "_comment": "Aggregate gas/cost figures only. Transaction hashes, block numbers, contract/Safe/timelock/validator addresses and token ids are omitted; on-chain identifiers will be published after acceptance.",
+  "deployAndSetup": [
+    {
+      "function": "deploy_ValidatorRegistry",
+      "gasUsed": 740971,
+      "gasPriceGwei": 424.126,
+      "usd": 0.031733,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "deploy_WEB3BadgeRenderer",
+      "gasUsed": 2946684,
+      "gasPriceGwei": 420.595,
+      "usd": 0.125143,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "deploy_TimelockController",
+      "gasUsed": 1352325,
+      "gasPriceGwei": 415.924,
+      "usd": 0.056794,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "deploy_CompetencyAttestationSBTV4_impl",
+      "gasUsed": 3369131,
+      "gasPriceGwei": 410.994,
+      "usd": 0.139818,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "deploy_ERC1967Proxy",
+      "gasUsed": 309884,
+      "gasPriceGwei": 406.228,
+      "usd": 0.012711,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "setup_setRenderer",
+      "gasUsed": 62635,
+      "gasPriceGwei": 407.504,
+      "usd": 0.002577,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "setup_setMissionSerialPrefix",
+      "gasUsed": 64829,
+      "gasPriceGwei": 408.88,
+      "usd": 0.002677,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "setup_setCurrentIssuanceYear",
+      "gasUsed": 44928,
+      "gasPriceGwei": 409.61,
+      "usd": 0.001858,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "setup_approveRuleSet",
+      "gasUsed": 63545,
+      "gasPriceGwei": 408.74,
+      "usd": 0.002623,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "setup_transferOwnership_SBT_to_Timelock",
+      "gasUsed": 40118,
+      "gasPriceGwei": 407.31,
+      "usd": 0.00165,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "multisig_deploy_Safe_createProxyWithNonce",
+      "gasUsed": 344679,
+      "gasPriceGwei": 365.118,
+      "usd": 0.012707,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "multisig_execTransaction_schedule_setMissionSerialPrefix",
+      "gasUsed": 155044,
+      "gasPriceGwei": 355.305,
+      "usd": 0.005562,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "multisig_execTransaction_schedule_approveRuleSet",
+      "gasUsed": 136063,
+      "gasPriceGwei": 429.871,
+      "usd": 0.005906,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "timelock_execute_setMissionSerialPrefix",
+      "gasUsed": 88267,
+      "gasPriceGwei": 513.299,
+      "usd": 0.004575,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "timelock_execute_approveRuleSet",
+      "gasUsed": 86428,
+      "gasPriceGwei": 458.219,
+      "usd": 0.003999,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "issueOrUpdate_mainnet_production_1",
+      "gasUsed": 458945,
+      "gasPriceGwei": 283.478,
+      "usd": 0.013137,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "registry_addValidator",
+      "gasUsed": 115321,
+      "gasPriceGwei": 282.814,
+      "usd": 0.003293,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "registry_removeValidator",
+      "gasUsed": 64350,
+      "gasPriceGwei": 279.021,
+      "usd": 0.001813,
+      "network": "polygon-mainnet"
+    },
+    {
+      "function": "registry_transferOwnership_to_Timelock",
+      "gasUsed": 31113,
+      "gasPriceGwei": 434.855,
+      "usd": 0.001366,
+      "network": "polygon-mainnet"
+    }
+  ],
+  "testIssuances": [
+    {
+      "index": 1,
+      "gasUsed": 490064,
+      "gasPriceGwei": 275.866513442,
+      "costPOL": "0.135192247043440288",
+      "status": "success"
+    },
+    {
+      "index": 2,
+      "gasUsed": 490076,
+      "gasPriceGwei": 275.58093857,
+      "costPOL": "0.13505560405063132",
+      "status": "success"
+    },
+    {
+      "index": 3,
+      "gasUsed": 490064,
+      "gasPriceGwei": 275.084965505,
+      "costPOL": "0.13480923853524232",
+      "status": "success"
+    },
+    {
+      "index": 4,
+      "gasUsed": 490064,
+      "gasPriceGwei": 276.969660545,
+      "costPOL": "0.13573285972532488",
+      "status": "success"
+    },
+    {
+      "index": 5,
+      "gasUsed": 490064,
+      "gasPriceGwei": 277.382173589,
+      "costPOL": "0.135935017517719696",
+      "status": "success"
+    },
+    {
+      "index": 6,
+      "gasUsed": 490076,
+      "gasPriceGwei": 277.706939315,
+      "costPOL": "0.13609750599173794",
+      "status": "success"
+    },
+    {
+      "index": 7,
+      "gasUsed": 490064,
+      "gasPriceGwei": 273.791066089,
+      "costPOL": "0.134175145011839696",
+      "status": "success"
+    },
+    {
+      "index": 8,
+      "gasUsed": 490076,
+      "gasPriceGwei": 275.777757713,
+      "costPOL": "0.135152060388956188",
+      "status": "success"
+    },
+    {
+      "index": 9,
+      "gasUsed": 490040,
+      "gasPriceGwei": 273.943237557,
+      "costPOL": "0.13424314413243228",
+      "status": "success"
+    },
+    {
+      "index": 10,
+      "gasUsed": 490064,
+      "gasPriceGwei": 274.315725021,
+      "costPOL": "0.134432261466691344",
+      "status": "success"
+    }
+  ],
+  "batchRevocation": [
+    {
+      "step": "scheduleBatch",
+      "status": "success",
+      "gasUsed": 219230,
+      "gasPriceGwei": 232.335,
+      "costPOL": "0.05093489664445655",
+      "tokensInBatch": 10
+    },
+    {
+      "step": "executeBatch",
+      "status": "success",
+      "gasUsed": 1465131,
+      "gasPriceGwei": 395.057,
+      "costPOL": "0.578810578143152232",
+      "tokensInBatch": 10
+    }
+  ],
+  "thresholdChangeOps": [
+    {
+      "step": "timelock_scheduleBatch",
+      "status": "success",
+      "gasUsed": 191291,
+      "gasPriceGwei": 324.636805896,
+      "costPOL": "0.062100099236651736"
+    },
+    {
+      "step": "timelock_executeBatch",
+      "status": "success",
+      "gasUsed": 650464,
+      "gasPriceGwei": 330.882658925,
+      "costPOL": "0.2152272578549912"
+    }
+  ]
+}

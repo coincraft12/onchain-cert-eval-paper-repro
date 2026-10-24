@@ -1,0 +1,57 @@
+{
+  "_comment": "체인 끝 관찰 시각(latestTxTime) 기준 트랜잭션 나이(일). 실제 블록 타임스탬프(age_days_from_tip)와, 블록 수x2.0초 환산(age_days_if_2s_blocks)을 함께 낸다. 원 실험(2026-10-10) 조회 실패 분류는 exp1b_publicnode_availability_check.json(블록 번호 기준), 오늘 재조회 분류는 publicnode_status.",
+  "observedAtChainTip": {
+    "latestBlock": 95270018,
+    "latestTxTime": 1791610276,
+    "latestTxTimeUtc": "2026-10-10T05:31:16.000Z"
+  },
+  "totalTx": 375,
+  "alchemyFound": 375,
+  "run_2026_10_10_classification": {
+    "publicnodeFound": 336,
+    "publicnodeMissing": 39,
+    "ageDays_actualTimestamps": {
+      "found": {
+        "n": 336,
+        "min": 0,
+        "max": 33.06
+      },
+      "missing": {
+        "n": 39,
+        "min": 56.94,
+        "max": 329.72
+      }
+    },
+    "ageDays_blocksTimes2s": {
+      "found": {
+        "n": 336,
+        "min": 0,
+        "max": 44.08
+      },
+      "missing": {
+        "n": 39,
+        "min": 75.91,
+        "max": 376.41
+      }
+    }
+  },
+  "requery_at_script_run_time": {
+    "publicnode": {
+      "found": 330,
+      "null": 0,
+      "error": 45
+    },
+    "ageDays_actualTimestamps": {
+      "found": {
+        "n": 330,
+        "min": 0,
+        "max": 20.84
+      },
+      "notFound": {
+        "n": 45,
+        "min": 29.61,
+        "max": 329.72
+      }
+    }
+  }
+}

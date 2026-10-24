@@ -1,0 +1,9 @@
+Exp.3 (latency) execution environment
+Collected 2026-10-22 on the workstation that holds the original results (hostname and user names intentionally omitted).
+Note: collected after the 2026-10-10 measurement run, on the same workstation; it is a hardware/OS description, not a log written during the run.
+
+CPU: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+Cores / logical processors: 8 / 16
+RAM: 31.9 GB (32 GB installed)
+OS: Microsoft Windows 10 Pro (build 19045)
+Node.js: v22.14.0

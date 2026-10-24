@@ -1,0 +1,165 @@
+{
+  "_comment": "SC-DEV-PRO-M1 ruleSet v1.2.0 — 정규 본문(ruleSetBody)과 ruleSetId. SC-DEV-PRO-M1-ruleset.json에서 감사용 주석 키(_comment, examMeta._note, sessionBoundaryRule._comment, stateMachine._comment)만 제거하고 canonicalSerialize+keccak256으로 계산(scripts/compute-mission-ids.mjs와 동일 절차). `node rulesets/build-sc-dev-pro-m1.mjs`로 재현.",
+  "ruleSetId": "0xdb2378ffc4ecd58bb08c7d4a99b034d27aaeccef0cf59efb002aee0f05563dc0",
+  "ruleSetBody": {
+    "version": "1.2.0",
+    "missionId": "SC-DEV-PRO-M1",
+    "trackId": "web3-architect-pro",
+    "chainScope": [
+      137
+    ],
+    "validFrom": 1754049600,
+    "gradeThresholds": {
+      "basic": 50,
+      "associate": 75,
+      "professional": 90
+    },
+    "featureWeights": {
+      "efficiency": 0.2,
+      "stability": 0.15,
+      "coherence": 0.25,
+      "riskPattern": 0.25,
+      "excellence": 0.15
+    },
+    "sessionBoundaryRule": {
+      "timeoutSeconds": 1800,
+      "minActionCount": 5,
+      "boundaryActionTypes": [],
+      "stateMachine": {
+        "initialState": "empty",
+        "transitions": [
+          {
+            "from": "empty",
+            "actionType": "constructor",
+            "to": "deployed-1"
+          },
+          {
+            "from": "deployed-1",
+            "actionType": "constructor",
+            "to": "deployed-2"
+          },
+          {
+            "from": "deployed-2",
+            "actionType": "constructor",
+            "to": "deployed-3"
+          },
+          {
+            "from": "deployed-3",
+            "actionType": "constructor",
+            "to": "deployed-4"
+          },
+          {
+            "from": "deployed-4",
+            "actionType": "setup",
+            "to": "safe-configured"
+          },
+          {
+            "from": "deployed-4",
+            "actionType": "constructor",
+            "to": "deployed-5"
+          },
+          {
+            "from": "deployed-5",
+            "actionType": "setup",
+            "to": "safe-configured"
+          },
+          {
+            "from": "safe-configured",
+            "actionType": "transferOwnership",
+            "to": "ownership-transferred"
+          },
+          {
+            "from": "ownership-transferred",
+            "actionType": "constructor",
+            "to": "new-impl-deployed"
+          },
+          {
+            "from": "new-impl-deployed",
+            "actionType": "schedule",
+            "to": "upgrade-scheduled"
+          },
+          {
+            "from": "ownership-transferred",
+            "actionType": "schedule",
+            "to": "upgrade-scheduled"
+          },
+          {
+            "from": "upgrade-scheduled",
+            "actionType": "execute",
+            "to": "verified"
+          }
+        ],
+        "terminalStates": [
+          "verified"
+        ],
+        "invalidTransitionPolicy": "mark-violation"
+      }
+    },
+    "evidenceMapping": [
+      {
+        "actionType": "constructor",
+        "contributions": {
+          "excellence": 0.15,
+          "efficiency": 0.1
+        }
+      },
+      {
+        "actionType": "setup",
+        "contributions": {
+          "excellence": 0.15,
+          "coherence": 0.15
+        }
+      },
+      {
+        "actionType": "transferOwnership",
+        "contributions": {
+          "coherence": 0.25,
+          "riskPattern": 0.35
+        },
+        "absencePenalty": {
+          "riskPattern": 0.5,
+          "coherence": 0.3
+        }
+      },
+      {
+        "actionType": "schedule",
+        "contributions": {
+          "excellence": 0.2,
+          "coherence": 0.2,
+          "riskPattern": 0.3
+        },
+        "absencePenalty": {
+          "riskPattern": 0.3,
+          "coherence": 0.2,
+          "excellence": 0.2
+        }
+      },
+      {
+        "actionType": "execute",
+        "contributions": {
+          "coherence": 0.15,
+          "excellence": 0.1
+        },
+        "absencePenalty": {
+          "coherence": 0.3,
+          "excellence": 0.2,
+          "riskPattern": 0.25
+        }
+      },
+      {
+        "actionType": "internal:create",
+        "contributions": {
+          "excellence": 0.1
+        }
+      }
+    ],
+    "issuerSet": [
+      "0x402a8ec6e432ef3293d88cee5d886335689f7a3f"
+    ],
+    "examMeta": {
+      "totalQuestions": 0,
+      "passingScore": 0,
+      "questionBankRef": ""
+    }
+  }
+}

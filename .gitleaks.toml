@@ -1,0 +1,10 @@
+# Scanner config: the only suppressed pattern is a public wallet label ("wallet2_<first 8 hex of a public address>")
+# that has the shape of a key/value pair. It is not a secret.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "public wallet label false positive"
+regexTarget = "match"
+regexes = ['''wallet[12]_[0-9a-f]{8}''']
+paths = ['''paper-experiments/exp3-latency/run-exp3b-latency-multisession\.mjs''', '''paper-experiments/results/raw/exp3b_latency_multisession_raw\.json''']

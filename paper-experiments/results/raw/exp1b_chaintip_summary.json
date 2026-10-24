@@ -1,0 +1,15 @@
+{
+  "nWallets": 25,
+  "timePoints": [
+    0,
+    5,
+    30,
+    120
+  ],
+  "condA_stableAcrossTime": 25,
+  "condB_stableAcrossTime": 25,
+  "condA_matchAcrossProvider": 84,
+  "condB_matchAcrossProvider": 84,
+  "totalProviderChecksPerCondition": 100,
+  "measuredAtKst": "2026. 10. 10. 오후 2:31:23"
+}

@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.scan-tools/
+
+paper-experiments/.env
+.env
+.env.*
+!.env.example
+!paper-experiments/.env.example
+
+*.log
+.DS_Store
+
+.e2e-eval-report/

@@ -1,0 +1,347 @@
+{
+  "measuredAtKst": "2026. 10. 10. 오후 3:53:10",
+  "node": "v22.14.0",
+  "platform": "win32",
+  "repsPerCell": 10,
+  "warmupReps": 1,
+  "wallets": [
+    {
+      "key": "wallet1_ed1f2f77",
+      "address": "0xed1f2f77ec28edea2cf91efdbbd869f0e84312a5"
+    },
+    {
+      "key": "wallet2_411f5007",
+      "address": "0x411f5007d60c87e6654158e9208c94a8f4537d8b"
+    }
+  ],
+  "rawResults": {
+    "wallet1_ed1f2f77_n500": [
+      {
+        "normalize": 14.1166,
+        "session": 31.7443,
+        "feature": 0.9544,
+        "score": 0.1387,
+        "total": 46.954,
+        "sessionCount": 19
+      },
+      {
+        "normalize": 14.4314,
+        "session": 28.618,
+        "feature": 1.2286,
+        "score": 0.0627,
+        "total": 44.3407,
+        "sessionCount": 19
+      },
+      {
+        "normalize": 13.1571,
+        "session": 29.1806,
+        "feature": 0.7373,
+        "score": 0.033,
+        "total": 43.108,
+        "sessionCount": 19
+      },
+      {
+        "normalize": 11.5816,
+        "session": 30.8517,
+        "feature": 0.8361,
+        "score": 0.0485,
+        "total": 43.3179,
+        "sessionCount": 19
+      },
+      {
+        "normalize": 12.2146,
+        "session": 37.1397,
+        "feature": 0.7993,
+        "score": 0.0388,
+        "total": 50.1924,
+        "sessionCount": 19
+      },
+      {
+        "normalize": 15.0723,
+        "session": 32.5703,
+        "feature": 1.5086,
+        "score": 0.0607,
+        "total": 49.2119,
+        "sessionCount": 19
+      },
+      {
+        "normalize": 11.572,
+        "session": 31.3588,
+        "feature": 1.3887,
+        "score": 0.0598,
+        "total": 44.3793,
+        "sessionCount": 19
+      },
+      {
+        "normalize": 14.3461,
+        "session": 32.305,
+        "feature": 0.7185,
+        "score": 0.0387,
+        "total": 47.4083,
+        "sessionCount": 19
+      },
+      {
+        "normalize": 13.0136,
+        "session": 34.9904,
+        "feature": 0.848,
+        "score": 0.0422,
+        "total": 48.894200000000005,
+        "sessionCount": 19
+      },
+      {
+        "normalize": 15.433,
+        "session": 34.8469,
+        "feature": 0.9548,
+        "score": 0.0369,
+        "total": 51.2716,
+        "sessionCount": 19
+      }
+    ],
+    "wallet1_ed1f2f77_n1000": [
+      {
+        "normalize": 25.9213,
+        "session": 61.6024,
+        "feature": 1.6576,
+        "score": 0.0894,
+        "total": 89.2707,
+        "sessionCount": 37
+      },
+      {
+        "normalize": 26.5841,
+        "session": 65.5121,
+        "feature": 1.3538,
+        "score": 0.0982,
+        "total": 93.54820000000002,
+        "sessionCount": 37
+      },
+      {
+        "normalize": 29.4294,
+        "session": 66.5921,
+        "feature": 1.3558,
+        "score": 0.0976,
+        "total": 97.4749,
+        "sessionCount": 37
+      },
+      {
+        "normalize": 32.3941,
+        "session": 68.1854,
+        "feature": 0.7438,
+        "score": 0.0658,
+        "total": 101.38909999999998,
+        "sessionCount": 37
+      },
+      {
+        "normalize": 22.4886,
+        "session": 73.9203,
+        "feature": 2.0999,
+        "score": 0.1008,
+        "total": 98.60960000000001,
+        "sessionCount": 37
+      },
+      {
+        "normalize": 26.5289,
+        "session": 55.6122,
+        "feature": 1.0256,
+        "score": 0.0629,
+        "total": 83.22959999999999,
+        "sessionCount": 37
+      },
+      {
+        "normalize": 25.7844,
+        "session": 71.0763,
+        "feature": 0.7949,
+        "score": 0.0729,
+        "total": 97.72850000000001,
+        "sessionCount": 37
+      },
+      {
+        "normalize": 28.6518,
+        "session": 58.5203,
+        "feature": 0.5991,
+        "score": 0.0661,
+        "total": 87.8373,
+        "sessionCount": 37
+      },
+      {
+        "normalize": 23.0775,
+        "session": 58.5322,
+        "feature": 0.8772,
+        "score": 0.0991,
+        "total": 82.58600000000001,
+        "sessionCount": 37
+      },
+      {
+        "normalize": 24.2591,
+        "session": 57.5035,
+        "feature": 0.6104,
+        "score": 0.062,
+        "total": 82.435,
+        "sessionCount": 37
+      }
+    ],
+    "wallet2_411f5007_n500": [
+      {
+        "normalize": 10.566,
+        "session": 31.2627,
+        "feature": 0.8799,
+        "score": 0.1171,
+        "total": 42.8257,
+        "sessionCount": 48
+      },
+      {
+        "normalize": 11.4077,
+        "session": 28.8048,
+        "feature": 0.6482,
+        "score": 0.112,
+        "total": 40.9727,
+        "sessionCount": 48
+      },
+      {
+        "normalize": 10.1991,
+        "session": 28.4494,
+        "feature": 0.5989,
+        "score": 0.0929,
+        "total": 39.3403,
+        "sessionCount": 48
+      },
+      {
+        "normalize": 10.6121,
+        "session": 32.2084,
+        "feature": 1.0095,
+        "score": 0.164,
+        "total": 43.994,
+        "sessionCount": 48
+      },
+      {
+        "normalize": 10.7143,
+        "session": 26.7382,
+        "feature": 0.6926,
+        "score": 0.08,
+        "total": 38.2251,
+        "sessionCount": 48
+      },
+      {
+        "normalize": 12.5285,
+        "session": 26.8132,
+        "feature": 1.5087,
+        "score": 0.1197,
+        "total": 40.970099999999995,
+        "sessionCount": 48
+      },
+      {
+        "normalize": 9.5801,
+        "session": 28.4287,
+        "feature": 0.6561,
+        "score": 0.1413,
+        "total": 38.806200000000004,
+        "sessionCount": 48
+      },
+      {
+        "normalize": 9.7502,
+        "session": 28.1928,
+        "feature": 0.6251,
+        "score": 0.1656,
+        "total": 38.7337,
+        "sessionCount": 48
+      },
+      {
+        "normalize": 10.2044,
+        "session": 28.481,
+        "feature": 0.7375,
+        "score": 0.0506,
+        "total": 39.4735,
+        "sessionCount": 48
+      },
+      {
+        "normalize": 8.9493,
+        "session": 31.1342,
+        "feature": 0.7426,
+        "score": 0.0391,
+        "total": 40.8652,
+        "sessionCount": 48
+      }
+    ],
+    "wallet2_411f5007_n1000": [
+      {
+        "normalize": 19.3647,
+        "session": 56.4427,
+        "feature": 0.988,
+        "score": 0.0551,
+        "total": 76.8505,
+        "sessionCount": 83
+      },
+      {
+        "normalize": 19.8299,
+        "session": 54.1283,
+        "feature": 1.4192,
+        "score": 0.0636,
+        "total": 75.441,
+        "sessionCount": 83
+      },
+      {
+        "normalize": 19.6541,
+        "session": 52.5874,
+        "feature": 0.7523,
+        "score": 0.0527,
+        "total": 73.04650000000001,
+        "sessionCount": 83
+      },
+      {
+        "normalize": 19.129,
+        "session": 51.6189,
+        "feature": 0.7925,
+        "score": 0.9007,
+        "total": 72.4411,
+        "sessionCount": 83
+      },
+      {
+        "normalize": 19.7673,
+        "session": 53.7954,
+        "feature": 0.6077,
+        "score": 0.0479,
+        "total": 74.2183,
+        "sessionCount": 83
+      },
+      {
+        "normalize": 18.7219,
+        "session": 52.3797,
+        "feature": 0.6974,
+        "score": 0.1158,
+        "total": 71.9148,
+        "sessionCount": 83
+      },
+      {
+        "normalize": 19.4853,
+        "session": 52.5559,
+        "feature": 0.6644,
+        "score": 0.0983,
+        "total": 72.8039,
+        "sessionCount": 83
+      },
+      {
+        "normalize": 18.1944,
+        "session": 52.8464,
+        "feature": 0.6239,
+        "score": 0.048,
+        "total": 71.71270000000001,
+        "sessionCount": 83
+      },
+      {
+        "normalize": 18.624,
+        "session": 52.125,
+        "feature": 0.6024,
+        "score": 0.0511,
+        "total": 71.4025,
+        "sessionCount": 83
+      },
+      {
+        "normalize": 18.5412,
+        "session": 53.9978,
+        "feature": 0.5332,
+        "score": 0.0484,
+        "total": 73.1206,
+        "sessionCount": 83
+      }
+    ]
+  }
+}
